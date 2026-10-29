@@ -1,0 +1,110 @@
+Creating this log file :)
+Sistema operativo: WIN
+Navegador: CHROME
+Agente: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+Direccion IP: ::1
+(❍ᴥ❍ʋ)
+2014-12-30 23:15:52.140254 - INFO - Sesion iniciada como: admin
+2014-12-30 23:15:52.140254 - INFO - Here we go!
+2014-12-30 23:15:52.140254 - INFO - Subiendo archivo : ENDPOINT_CDR_DETAIL_ALL_CSV-35.csv
+2014-12-30 23:15:52.140254 - INFO - Tipo: application/vnd.ms-excel
+2014-12-30 23:15:52.140254 - INFO - Largo: 1169481 KB
+2014-12-30 23:15:52.145255 - INFO - Archivo cargado en: ../file_storage/ENDPOINT_CDR_DETAIL_ALL_CSV-35.csv
+2014-12-30 23:15:52.145255 - INFO - limpiando tabla con query 'TRUNCATE dbpolycom.tbdata;'
+2014-12-30 23:15:52.148255 - INFO - Clear complete!
+2014-12-30 23:15:52.148255 - INFO - Abriendo archivo
+2014-12-30 23:15:52.149255 - INFO - Archivo de 43 campos
+2014-12-30 23:15:52.672285 - WARNING - Fila 1791 capturada y corregida.
+2014-12-30 23:15:52.726289 - WARNING - Fila 2051 capturada y corregida.
+2014-12-30 23:15:52.727288 - WARNING - Fila 2052 capturada y corregida.
+2014-12-30 23:15:52.729289 - WARNING - Fila 2059 capturada y corregida.
+2014-12-30 23:15:52.729289 - WARNING - Fila 2061 capturada y corregida.
+2014-12-30 23:15:52.730288 - WARNING - Fila 2062 capturada y corregida.
+2014-12-30 23:15:52.731288 - WARNING - Fila 2063 capturada y corregida.
+2014-12-30 23:15:52.732289 - WARNING - Fila 2064 capturada y corregida.
+2014-12-30 23:15:52.733289 - WARNING - Fila 2065 capturada y corregida.
+2014-12-30 23:15:52.733289 - WARNING - Fila 2066 capturada y corregida.
+2014-12-30 23:15:52.734288 - WARNING - Fila 2067 capturada y corregida.
+2014-12-30 23:15:52.735289 - WARNING - Fila 2068 capturada y corregida.
+2014-12-30 23:15:52.735289 - WARNING - Fila 2069 capturada y corregida.
+2014-12-30 23:15:52.736289 - WARNING - Fila 2070 capturada y corregida.
+2014-12-30 23:15:52.737288 - WARNING - Fila 2071 capturada y corregida.
+2014-12-30 23:15:52.738289 - WARNING - Fila 2072 capturada y corregida.
+2014-12-30 23:15:52.739289 - WARNING - Fila 2073 capturada y corregida.
+2014-12-30 23:15:52.740288 - WARNING - Fila 2074 capturada y corregida.
+2014-12-30 23:15:52.741288 - WARNING - Fila 2075 capturada y corregida.
+2014-12-30 23:15:52.741288 - WARNING - Fila 2076 capturada y corregida.
+2014-12-30 23:15:52.742289 - WARNING - Fila 2077 capturada y corregida.
+2014-12-30 23:15:52.743289 - WARNING - Fila 2078 capturada y corregida.
+2014-12-30 23:15:52.743289 - WARNING - Fila 2079 capturada y corregida.
+2014-12-30 23:15:52.744290 - WARNING - Fila 2080 capturada y corregida.
+2014-12-30 23:15:52.745290 - WARNING - Fila 2081 capturada y corregida.
+2014-12-30 23:15:52.745290 - WARNING - Fila 2082 capturada y corregida.
+2014-12-30 23:15:52.746289 - WARNING - Fila 2083 capturada y corregida.
+2014-12-30 23:15:52.747289 - WARNING - Fila 2084 capturada y corregida.
+2014-12-30 23:15:52.747289 - WARNING - Fila 2085 capturada y corregida.
+2014-12-30 23:15:52.748290 - WARNING - Fila 2086 capturada y corregida.
+2014-12-30 23:15:52.748290 - WARNING - Fila 2087 capturada y corregida.
+2014-12-30 23:15:52.749289 - WARNING - Fila 2089 capturada y corregida.
+2014-12-30 23:15:52.749289 - WARNING - Fila 2090 capturada y corregida.
+2014-12-30 23:15:52.750289 - WARNING - Fila 2091 capturada y corregida.
+2014-12-30 23:15:52.750289 - WARNING - Fila 2092 capturada y corregida.
+2014-12-30 23:15:52.751290 - WARNING - Fila 2093 capturada y corregida.
+2014-12-30 23:15:52.752290 - WARNING - Fila 2094 capturada y corregida.
+2014-12-30 23:15:52.752290 - WARNING - Fila 2095 capturada y corregida.
+2014-12-30 23:15:52.753289 - WARNING - Fila 2096 capturada y corregida.
+2014-12-30 23:15:52.753289 - WARNING - Fila 2097 capturada y corregida.
+2014-12-30 23:15:52.754290 - WARNING - Fila 2098 capturada y corregida.
+2014-12-30 23:15:52.754290 - WARNING - Fila 2099 capturada y corregida.
+2014-12-30 23:15:52.755290 - WARNING - Fila 2100 capturada y corregida.
+2014-12-30 23:15:52.756289 - WARNING - Fila 2102 capturada y corregida.
+2014-12-30 23:15:52.756289 - WARNING - Fila 2103 capturada y corregida.
+2014-12-30 23:15:52.756289 - WARNING - Fila 2104 capturada y corregida.
+2014-12-30 23:15:52.757289 - WARNING - Fila 2105 capturada y corregida.
+2014-12-30 23:15:52.757289 - WARNING - Fila 2106 capturada y corregida.
+2014-12-30 23:15:52.759289 - WARNING - Fila 2110 capturada y corregida.
+2014-12-30 23:15:52.759289 - WARNING - Fila 2111 capturada y corregida.
+2014-12-30 23:15:52.760289 - WARNING - Fila 2112 capturada y corregida.
+2014-12-30 23:15:52.760289 - WARNING - Fila 2114 capturada y corregida.
+2014-12-30 23:15:52.761291 - WARNING - Fila 2115 capturada y corregida.
+2014-12-30 23:15:52.761291 - WARNING - Fila 2116 capturada y corregida.
+2014-12-30 23:15:52.762290 - WARNING - Fila 2117 capturada y corregida.
+2014-12-30 23:15:52.762290 - WARNING - Fila 2118 capturada y corregida.
+2014-12-30 23:15:52.762290 - WARNING - Fila 2119 capturada y corregida.
+2014-12-30 23:15:52.763290 - WARNING - Fila 2120 capturada y corregida.
+2014-12-30 23:15:52.763290 - WARNING - Fila 2122 capturada y corregida.
+2014-12-30 23:15:52.764291 - WARNING - Fila 2123 capturada y corregida.
+2014-12-30 23:15:52.764291 - WARNING - Fila 2124 capturada y corregida.
+2014-12-30 23:15:52.764291 - WARNING - Fila 2125 capturada y corregida.
+2014-12-30 23:15:52.765290 - WARNING - Fila 2126 capturada y corregida.
+2014-12-30 23:15:52.765290 - WARNING - Fila 2127 capturada y corregida.
+2014-12-30 23:15:52.766290 - WARNING - Fila 2128 capturada y corregida.
+2014-12-30 23:15:52.766290 - WARNING - Fila 2129 capturada y corregida.
+2014-12-30 23:15:52.766290 - WARNING - Fila 2130 capturada y corregida.
+2014-12-30 23:15:52.767291 - WARNING - Fila 2133 capturada y corregida.
+2014-12-30 23:15:52.768290 - WARNING - Fila 2134 capturada y corregida.
+2014-12-30 23:15:52.768290 - WARNING - Fila 2135 capturada y corregida.
+2014-12-30 23:15:52.769290 - WARNING - Fila 2137 capturada y corregida.
+2014-12-30 23:15:52.769290 - WARNING - Fila 2138 capturada y corregida.
+2014-12-30 23:15:52.770291 - WARNING - Fila 2139 capturada y corregida.
+2014-12-30 23:15:52.770291 - WARNING - Fila 2140 capturada y corregida.
+2014-12-30 23:15:52.770291 - WARNING - Fila 2141 capturada y corregida.
+2014-12-30 23:15:52.771291 - WARNING - Fila 2142 capturada y corregida.
+2014-12-30 23:15:52.771291 - WARNING - Fila 2143 capturada y corregida.
+2014-12-30 23:15:52.797292 - WARNING - Fila 2268 capturada y corregida.
+2014-12-30 23:15:53.046307 - WARNING - No se procesará la linea 3500 tiene 1 campo(s).
+2014-12-30 23:15:53.047307 - INFO - Se van a insertar valores en tbfile
+2014-12-30 23:15:53.047307 - INFO - INSERT correcto...
+2014-12-30 23:15:53.047307 - INFO - Completo! cerrando archivo.
+2014-12-30 23:15:53.047307 - INFO - Se insertaron: 3498 registros en tbdata.
+2014-12-30 23:15:56.322494 - INFO - Generando estadísticas básicas On Demand
+2014-12-30 23:19:31.119780 - INFO - Generando estadísticas básicas On Demand
+2014-12-30 23:20:33.572351 - INFO - Generando estadísticas básicas On Demand
+2014-12-30 23:20:36.411514 - INFO - Generando estadísticas básicas On Demand
+2014-12-30 23:20:45.265021 - INFO - Generando estadísticas básicas On Demand
+2014-12-30 23:21:30.925631 - INFO - Generando estadísticas básicas On Demand
+2014-12-30 23:21:39.724136 - INFO - Generando estadísticas básicas On Demand
+2014-12-30 23:21:47.004551 - INFO - Generando estadísticas básicas On Demand
+2014-12-30 23:21:52.834886 - INFO - Generando estadísticas básicas On Demand
+2014-12-30 23:22:07.406718 - INFO - Generando estadísticas básicas On Demand
+2014-12-30 23:22:29.772998 - INFO - Generando estadísticas básicas On Demand

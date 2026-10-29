@@ -1,0 +1,652 @@
+<?php
+//@date:    : 2014/08/23
+//@autor:   : Marteliuz
+//@Modified : Paulo Ossandon
+//@Date     : 2014/12/01
+
+		if (PHP_SAPI == 'cli')
+			die('Este archivo solo se puede ver desde un navegador web');
+
+		/** Se agrega la libreria PHPExcel */
+		require_once 'PHPExcel/PHPExcel.php';
+
+        //include lib_function.php for extrac values		
+		include("lib_functions.php");
+
+		// Se crea el objeto PHPExcel
+		$objPHPExcel = new PHPExcel();
+
+		// Se asignan las propiedades del libro
+		$objPHPExcel->getProperties()->setCreator("TouchMedia") //Autor
+							 ->setLastModifiedBy("TouchMedia") //Ultimo usuario que lo modificó
+							 ->setTitle("Reporte Excel")
+							 ->setSubject("Reporte Excel")
+							 ->setDescription("Reporte de CDR Processor")
+							 ->setKeywords("reporte CDR Processor")
+							 ->setCategory("Reporte excel");
+
+		// PAGINA 1
+		// REPORTE DE USO VIDEOCONFERENCIA
+		// PARAMETROS DEL REPORTE
+
+		function cellColor($cells,$color){
+              	 global $objPHPExcel;
+                 $objPHPExcel->getActiveSheet()->getStyle($cells)->getFill()
+                 ->applyFromArray(array('type' => PHPExcel_Style_Fill::FILL_SOLID,
+                 'startcolor' => array('rgb' => $color)
+                  ));
+            }
+            cellColor('B5', 'F28A8C');
+            cellColor('G5', 'F28A8C');
+            cellColor('A7:I7', 'F28A8C');
+            cellColor('A17:I17', 'F28A8C');
+            cellColor('A30:Z30', 'F28A8C');
+			
+		$tituloReporte = "REPORTE DE USO VIDEOCONFERENCIA";
+	
+		//########### COMBINAR Y CENTRAR ##############
+
+		//$objPHPExcel->getActiveSheet(0)
+		//->getColumnDimension('A')
+		//->setAutoSize(true);
+		
+		//$objPHPExcel->getActiveSheet(0)
+		//->getColumnDimension('B')
+		//->setAutoSize(true); 		
+
+		// Se agregan los titulos del reporte
+		$objPHPExcel->setActiveSheetIndex(0)->mergeCells('A6:D6');
+		$objPHPExcel->setActiveSheetIndex(0)->mergeCells('A8:B8');
+
+		//########### ADD A IMAGE ################
+		$objDrawing = new PHPExcel_Worksheet_Drawing();
+        $objDrawing->setName('Logo');
+        $objDrawing->setDescription('Logo');
+        $objDrawing->setPath('../resources/tmc_logo.png');
+
+        $objDrawing->setCoordinates('A1');
+        $objDrawing->setHeight(10);
+        $objDrawing->setWidth(150);
+        $objDrawing->setWorksheet($objPHPExcel->getActiveSheet(0));		
+		//########################################
+		
+		//Center title report of use video conference
+		$objPHPExcel->getActiveSheet(0)->mergeCells('A6:A6');
+        $objPHPExcel->getActiveSheet(0)->getStyle('A6:A6')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+
+        /** Borders for heading -  title report of use video conference */
+        $objPHPExcel->getActiveSheet()->getStyle('A6:D6')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+
+        //Bold
+        $objPHPExcel->getActiveSheet()->getStyle('A6:A6')->getFont()->setBold(true);
+
+		//Center title parameter of report
+		$objPHPExcel->getActiveSheet(0)->mergeCells('A8:B8');
+        $objPHPExcel->getActiveSheet(0)->getStyle('A8:B8')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+
+        /** Borders for heading -  title parameter of report */
+        $objPHPExcel->getActiveSheet()->getStyle('A8:B8')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+
+        //Bold
+        $objPHPExcel->getActiveSheet()->getStyle('A8:A8')->getFont()->setBold(true);
+
+        /** Borders for heading -  total registers */
+        $objPHPExcel->getActiveSheet()->getStyle('A9:B9')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+
+        /** Borders for heading -  title total failed  attempts */
+        $objPHPExcel->getActiveSheet()->getStyle('A10:B10')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+
+        /** Borders for heading -  title total calls concretized */
+        $objPHPExcel->getActiveSheet()->getStyle('A11:B11')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+
+        /** Borders for heading -  title first records*/
+        $objPHPExcel->getActiveSheet()->getStyle('A12:B12')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+
+        /** Borders for heading -  title second records */
+        $objPHPExcel->getActiveSheet()->getStyle('A13:B13')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+
+		$objPHPExcel->setActiveSheetIndex(0)
+					->setCellValue('A6',$tituloReporte)
+        		    ->setCellValue('A8',  "Parámetros del Reporte")
+					
+		            ->setCellValue('A9',  "Total de Registros")
+					->setCellValue('B9',  getCountItemsFile())
+					
+        		    ->setCellValue('A10',  "Total de Intentos Fallidos")
+					->setCellValue('B10',  getCountFailedAttempr())
+					
+					->setCellValue('A11',  "total de llamadas concretadas")
+					->setCellValue('B11',  (getCountAllItems() - getCountFailedAttempr()))
+					
+					->setCellValue('A12',  "Primer Registro")
+					->setCellValue('B12',  getDateFirstRecord())
+					
+            		->setCellValue('A13',  "Ultimo Registro")
+					->setCellValue('B13',  getDateLastRecord())
+
+					//Title Total calls
+                    ->mergeCells('A15:C15')
+					->setCellValue('A15','Total de llamadas')
+                    //Sub-title calls
+					->setCellValue('A16','Direccion')
+		            //Sub-title calls
+		            ->setCellValue('B16','Cantidad')
+		            //Sub-title calls
+		            ->setCellValue('C16','Tiempo')
+
+		            ->setCellValue('A17','Entrantes')
+		            ->setCellValue('A18','Salientes');
+
+		            // Se asigna el nombre a la hoja
+		            $objPHPExcel->getActiveSheet()->setTitle('Reporte');
+
+		            //Center title total of call 
+		            $objPHPExcel->getActiveSheet(0)->mergeCells('A15:B15');
+                    $objPHPExcel->getActiveSheet(0)->getStyle('A15:B15')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                       
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('A15:A15')->getFont()->setBold(true);
+
+                    /** Borders for heading -  title total of call */
+                     $objPHPExcel->getActiveSheet()->getStyle('A15:C15')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+                    
+                    //Center sub-title total of call address 
+		            $objPHPExcel->getActiveSheet(0)->mergeCells('A16:A16');
+                    $objPHPExcel->getActiveSheet(0)->getStyle('A16:A16')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('A16:A16')->getFont()->setBold(true);
+
+                    /** Borders for heading -  sub-title total of call addrress */
+                    $objPHPExcel->getActiveSheet()->getStyle('A16:A16')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+
+                    //Center sub-title total of call quantity
+		            $objPHPExcel->getActiveSheet(0)->mergeCells('B16:B16');
+                    $objPHPExcel->getActiveSheet(0)->getStyle('B16:B16')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('B16:B16')->getFont()->setBold(true);
+
+                    /** Borders for heading -  sub-title total of call quantity */
+                    $objPHPExcel->getActiveSheet()->getStyle('B16:B16')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+
+                     //Center sub-title total of call time
+		            $objPHPExcel->getActiveSheet(0)->mergeCells('C16:C16');
+                    $objPHPExcel->getActiveSheet(0)->getStyle('C16:C16')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('C16:C16')->getFont()->setBold(true);
+
+                    /** Borders for heading -  title parameter of report */
+                    $objPHPExcel->getActiveSheet()->getStyle('C16:C16')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+
+                    /** Borders for heading -  title call address incoming */
+                    $objPHPExcel->getActiveSheet()->getStyle('A17:A17')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);  
+
+                    /** Borders for heading -  title quantity incoming */
+                    $objPHPExcel->getActiveSheet()->getStyle('B17:B17')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);    
+
+                    /** Borders for heading -  title time incoming */
+                    $objPHPExcel->getActiveSheet()->getStyle('C17:C17')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);   
+
+                    /** Borders for heading -  title call address outgoing */
+                    $objPHPExcel->getActiveSheet()->getStyle('A18:A18')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);  
+
+                    /** Borders for heading -  title quantity outgoing */
+                    $objPHPExcel->getActiveSheet()->getStyle('B18:B18')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);    
+
+                    /** Borders for heading -  title time outgoing */
+                    $objPHPExcel->getActiveSheet()->getStyle('C18:C18')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);           
+
+        //Exex query sql and save in variable php - details of experience for entry site
+		$qry = "SELECT call_direction, COUNT(call_direction) as cantidad, SEC_TO_TIME(SUM(TIME_TO_SEC(call_duration))) as tiempo from dbpolycom.tbdata GROUP BY call_direction;";
+
+		$result = mysql_query ($qry, $conexion);
+
+		$y=17;
+
+		while($Reg = mysql_fetch_array($result))
+
+		{
+
+			$objPHPExcel->setActiveSheetIndex(0)
+			            ->setCellValue('A'.$y,$Reg['call_direction'])
+			            ->setCellValue('B'.$y,$Reg['cantidad'])
+			            ->setCellValue('C'.$y,$Reg['tiempo']);
+
+			$y=$y+1;
+
+		}
+
+        // Se activa la hoja para que sea la que se muestre cuando el archivo se abre
+		//$objPHPExcel->setActiveSheetIndex(0);
+				
+		// PAGINA 2
+		// DETALLE DE LLAMADAS ENTRANTES POR DIA - Llamadas por dia
+
+		//########### COMBINAR Y CENTRAR ##############
+
+		$objPHPExcel->getActiveSheet(1)
+		->getColumnDimension('A')
+		->setAutoSize(true);
+		
+		$objPHPExcel->getActiveSheet(1)
+		->getColumnDimension('B')
+		->setAutoSize(true);
+
+		$objPHPExcel->getActiveSheet(1)
+		->getColumnDimension('C')
+		->setAutoSize(true); 
+
+		$objPHPExcel->getActiveSheet(1)
+        ->getColumnDimension('D')
+        ->setWidth(true);
+
+		$objPHPExcel->createSheet(NULL, 1);
+		$objPHPExcel->setActiveSheetIndex(1);
+		$objPHPExcel->getActiveSheet()->setTitle("INC_por_dia");
+
+		$objPHPExcel->setActiveSheetIndex(1)
+		            ->mergeCells('A2:D2')
+        		    ->setCellValue('A2','DETALLE DE LlAMADAS ENTRANTES POR DIA')
+					->mergeCells('A4:C4')
+		            ->setCellValue('A4','Llamadas por dia')
+					->mergeCells('A5:A5')
+        		    ->setCellValue('A5','Fecha')
+                    ->mergeCells('B5:B5')
+					->setCellValue('B5','Cantidad')
+                    ->mergeCells('C5:C5')
+					->setCellValue('C5','Tiempo');
+
+		//Center title details entry for day
+		$objPHPExcel->getActiveSheet(1)->mergeCells('A2:D2');
+        $objPHPExcel->getActiveSheet(1)->getStyle('A2:D2')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                       
+        //Bold
+        $objPHPExcel->getActiveSheet()->getStyle('A2:D2')->getFont()->setBold(true);
+
+        /** Borders for heading -  title details entry for day */
+        $objPHPExcel->getActiveSheet()->getStyle('A2:D2')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+
+        //Center title calls for day
+		$objPHPExcel->getActiveSheet(1)->mergeCells('A4:C4');
+        $objPHPExcel->getActiveSheet(1)->getStyle('A4:C4')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                       
+        //Bold
+        $objPHPExcel->getActiveSheet()->getStyle('A4:C4')->getFont()->setBold(true);
+
+        /** Borders for heading -  title total of call */
+        $objPHPExcel->getActiveSheet()->getStyle('A4:C4')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+
+        //Center title date
+		$objPHPExcel->getActiveSheet(1)->mergeCells('A5:A5');
+        $objPHPExcel->getActiveSheet(1)->getStyle('A5:A5')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                       
+        //Bold
+        $objPHPExcel->getActiveSheet()->getStyle('A5:A5')->getFont()->setBold(true);
+
+        /** Borders for heading -  date */
+        $objPHPExcel->getActiveSheet()->getStyle('A5:A5')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        
+        //Center title quantity
+		$objPHPExcel->getActiveSheet(1)->mergeCells('B5:B5');
+        $objPHPExcel->getActiveSheet(1)->getStyle('B5:B5')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                       
+        //Bold
+        $objPHPExcel->getActiveSheet()->getStyle('B5:B5')->getFont()->setBold(true);
+
+        /** Borders for heading -  quantity */
+        $objPHPExcel->getActiveSheet()->getStyle('B5:B5')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+
+        //Center title time
+		$objPHPExcel->getActiveSheet(1)->mergeCells('C5:C5');
+        $objPHPExcel->getActiveSheet(1)->getStyle('C5:C5')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                       
+        //Bold
+        $objPHPExcel->getActiveSheet()->getStyle('C5:C5')->getFont()->setBold(true);
+
+        /** Borders for heading -  time */
+        $objPHPExcel->getActiveSheet()->getStyle('C5:C5')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+
+	    
+        //Exec query sql and save in variable php - calls entry for day
+	    $qry = "SELECT start_date AS fecha, COUNT(start_date) AS cantidad_llamadas, SEC_TO_TIME(SUM(TIME_TO_SEC(call_duration))) AS tiempo_total FROM dbpolycom.tbdata WHERE call_direction = 'INCOMING' GROUP BY start_date ORDER BY start_date ASC;";
+		
+		$result = mysql_query ($qry, $conexion);
+
+		$y=6;
+		
+		while($Reg = mysql_fetch_array($result))
+			
+			{
+
+				$objPHPExcel->setActiveSheetIndex(1)
+			            ->setCellValue('A'.$y,$Reg['fecha'])
+			            ->setCellValue('B'.$y,$Reg['cantidad_llamadas'])
+			            ->setCellValue('C'.$y,$Reg['tiempo_total']);
+
+			    $objPHPExcel->getActiveSheet()->getStyle('A'.$y)->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+			    $objPHPExcel->getActiveSheet()->getStyle('B'.$y)->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+			    $objPHPExcel->getActiveSheet()->getStyle('C'.$y)->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+			
+			$y=$y+1;
+			
+			
+			}
+	 
+		// PAGINA 3
+		// GRAFICO CANTIDAD LLAMADAS ENTRANTES POR DIA
+		$objPHPExcel->createSheet(NULL, 2);
+		$objPHPExcel->setActiveSheetIndex(2);
+		$objPHPExcel->getActiveSheet()->setTitle("INC_por_dia_chart");		
+
+		// PAGINA 4
+		// DETALLE LLAMADAS ENTRANTES POR TIPO DE TERMINAL - Total de llamadas y duración por Tipo de Sitio								
+		$objPHPExcel->createSheet(NULL, 3);
+		$objPHPExcel->setActiveSheetIndex(3);
+		$objPHPExcel->getActiveSheet()->setTitle("INC_por_tipo");
+
+		// PAGINA 5
+		// DETALLE LLAMADAS ENTRANTES POR SITIO - Total de llamadas y duración por Sitio
+		$objPHPExcel->createSheet(NULL, 4);
+		$objPHPExcel->setActiveSheetIndex(4);
+		$objPHPExcel->getActiveSheet()->setTitle("INC_por_sitio");
+        
+        //########### COMBINAR Y CENTRAR ##############
+
+        $objPHPExcel->getActiveSheet(4)
+        ->getColumnDimension('A')
+        ->setAutoSize(true);
+
+        $objPHPExcel->getActiveSheet(4)
+        ->getColumnDimension('B')
+        ->setAutoSize(true);
+
+        $objPHPExcel->getActiveSheet(4)
+        ->getColumnDimension('C')
+        ->setAutoSize(true);
+
+        $objPHPExcel->setActiveSheetIndex(4)
+		            //Title
+		            ->mergeCells('A2:E2')
+		            ->setCellValue('A2','LlAMADAS ENTRANTES POR SITIO')
+                    //Sub-title
+					->mergeCells('A4:A4')
+                    ->setCellValue('A4','Total de llamadas y duracion por sitio')
+                    //Title vacio
+                    ->mergeCells('B4:B4')   
+        		    ->setCellValue('B4','')
+                    //Title vacio
+        		    ->mergeCells('C4:C4')
+        		    ->setCellValue('C4','')
+                    //Name site 
+        		    ->mergeCells('A5:A5')
+        		    ->setCellValue('A5','Nombre Sitio')
+        		    //Title quantity
+        		    ->mergeCells('B5:B5')
+        		    ->setCellValue('B5','Cantidad')
+        		    //Title time
+        		    ->mergeCells('C5:C5')
+        		    ->setCellValue('C5','Tiempo');
+
+                    //Center title calls entry for site
+		            $objPHPExcel->getActiveSheet(4)->mergeCells('A2:E2');
+                    $objPHPExcel->getActiveSheet(4)->getStyle('A2:E2')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('A2:E2')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('A2:E2')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);   
+
+                    //Center title total calls and duration for site
+		            $objPHPExcel->getActiveSheet(4)->mergeCells('A4:A4');
+                    $objPHPExcel->getActiveSheet(4)->getStyle('A4:A4')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('A4:A4')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('A4:A4')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN); 
+
+                    //Center title vacio
+		            $objPHPExcel->getActiveSheet(4)->mergeCells('B4:B4');
+                    $objPHPExcel->getActiveSheet(4)->getStyle('B4:B4')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('B4:B4')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('B4:B4')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);   
+
+                    //Center title vacio
+		            $objPHPExcel->getActiveSheet(4)->mergeCells('C4:C4');
+                    $objPHPExcel->getActiveSheet(4)->getStyle('C4:C4')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('C4:C4')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('C4:C4')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);   
+
+                    //Center title name site
+		            $objPHPExcel->getActiveSheet(4)->mergeCells('A5:A5');
+                    $objPHPExcel->getActiveSheet(4)->getStyle('A5:A5')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('A5:A5')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('A5:A5')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);   
+
+                    //Center title quantity
+		            $objPHPExcel->getActiveSheet(4)->mergeCells('B5:B5');
+                    $objPHPExcel->getActiveSheet(4)->getStyle('B5:B5')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('B5:B5')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('B5:B5')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);   
+
+                    //Center title time
+		            $objPHPExcel->getActiveSheet(4)->mergeCells('C5:C5');
+                    $objPHPExcel->getActiveSheet(4)->getStyle('C5:C5')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('C5:C5')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('C5:C5')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);   
+ 
+
+        // TITULO PAGINA 6
+		// PARAMETROS DEL REPORTE	
+		$objPHPExcel->createSheet(NULL, 5);
+		$objPHPExcel->setActiveSheetIndex(5);
+		$objPHPExcel->getActiveSheet()->setTitle("INC_QOE");		
+
+		//########### COMBINAR Y CENTRAR ##############
+
+		$objPHPExcel->getActiveSheet(5)
+		->getColumnDimension('A')
+		->setAutoSize(true);
+		
+		$objPHPExcel->getActiveSheet(5)
+		->getColumnDimension('B')
+		->setAutoSize(true); 
+
+		$objPHPExcel->getActiveSheet(5)
+		->getColumnDimension('C')
+		->setAutoSize(true); 
+
+		$objPHPExcel->getActiveSheet(5)
+		->getColumnDimension('D')
+		->setAutoSize(true); 
+
+		$objPHPExcel->getActiveSheet(5)
+		->getColumnDimension('E')
+		->setAutoSize(true); 
+
+		$objPHPExcel->setActiveSheetIndex(5)
+		            //Title
+		            ->mergeCells('A2:E2')
+		            ->setCellValue('A2','DETALLE DE EXPERIENCIA POR SITIO ENTRANTES')
+                    //Sub-title
+					->mergeCells('A4:E4')
+                    ->setCellValue('A4','QoE - Calidad de la Experiencia')
+                    //Name site
+                    ->mergeCells('A5:A6')   
+        		    ->setCellValue('A5','Nombre de sitio')
+					//Title sumatory rx
+					->mergeCells('B5:B5')
+					->setCellValue('B5','Sumatoria')
+                    //Sub-title sumatory rx
+                    ->mergeCells('B5:B5')
+					->setCellValue('B6','Packet Lost RX')
+					//Title Promedio rx
+                    ->setCellValue('C5','Promedio %')
+                    //Sub-title promedio rx
+					->setCellValue('C6','Packet Lost RX')
+				    //Title sumatory tx
+					->setCellValue('D5','Sumatoria')
+					//Sub-title sumatory tx
+					->setCellValue('D6','Packet Lost TX')
+                    //Title promedio tx
+                    ->setCellValue('E5','Promedio %')
+                    //Sub-title promedio tx
+                    ->setCellValue('E6','Packet Lost TX');
+
+                    //Center title detalle de experienciea por sitio entrantes
+		            $objPHPExcel->getActiveSheet(5)->mergeCells('A2:E2');
+                    $objPHPExcel->getActiveSheet(5)->getStyle('A2:E2')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('A2:E2')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('A2:E2')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);   
+
+                    //Center title Quality of the experience
+		            $objPHPExcel->getActiveSheet(5)->mergeCells('A4:E4');
+                    $objPHPExcel->getActiveSheet(5)->getStyle('A4:E4')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('A4:E4')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('A4:E4')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);   
+
+                    //Center title site name
+		            $objPHPExcel->getActiveSheet(5)->mergeCells('A5:A6');
+                    $objPHPExcel->getActiveSheet(5)->getStyle('A5:A6')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('A5:A6')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('A5:A6')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);   
+
+                    //Center title sumatory
+		            $objPHPExcel->getActiveSheet(5)->mergeCells('B5:B5');
+                    $objPHPExcel->getActiveSheet(5)->getStyle('B5:B5')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('B5:B5')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('B5:B5')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);  
+
+                    //Center title sumatory
+                    $objPHPExcel->getActiveSheet(5)->getStyle('B6:B6')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('B6:B6')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('B6:B6')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN); 
+
+                    //Center title packet lost rx
+                    $objPHPExcel->getActiveSheet(5)->getStyle('C5:C5')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('C5:C5')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('C5:C5')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN); 
+
+                    //Center title promedio %
+                    $objPHPExcel->getActiveSheet(5)->getStyle('C6:C6')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('C6:C6')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('C6:C6')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN); 
+
+                    //Center title sumatory
+                    $objPHPExcel->getActiveSheet(5)->getStyle('D5:D5')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('D5:D5')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('D5:D5')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN); 
+
+                    //Center title sumatory
+                    $objPHPExcel->getActiveSheet(5)->getStyle('D6:D6')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('D6:D6')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('D6:D6')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN); 
+
+                    //Center title promedio %
+                    $objPHPExcel->getActiveSheet(5)->getStyle('E5:E5')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('E5:E5')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('E5:E5')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN); 
+
+                    //Center title promedio %
+                    $objPHPExcel->getActiveSheet(5)->getStyle('E6:E6')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                    //Bold
+                    $objPHPExcel->getActiveSheet()->getStyle('E6:E6')->getFont()->setBold(true);
+                    /** Borders for heading */
+                    $objPHPExcel->getActiveSheet()->getStyle('E6:E6')->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN); 
+
+
+		//Exec query sql and save value in variable php			
+        $qry = "SELECT name, SUM(avg_packets_lost_rx), AVG(avg_percent_packeT_loss_rx), SUM(avg_packets_lost_tx),AVG(avg_percent_packet_loss_tx) FROM dbpolycom.tbdata WHERE call_direction = 'INCOMING' AND disconnect_info NOT LIKE 'Fail%' GROUP BY NAME;";
+		$result = mysql_query ($qry, $conexion);
+         
+        $y=7;
+
+		while($Reg = mysql_fetch_array($result))
+		{
+
+			$objPHPExcel->setActiveSheetIndex(5)
+			            ->setCellValue('A'.$y,$Reg['name'])
+			            ->setCellValue('B'.$y,$Reg['SUM(avg_packets_lost_rx)'])
+			            ->setCellValue('C'.$y,$Reg['AVG(avg_percent_packeT_loss_rx)'])
+			            ->setCellValue('D'.$y,$Reg['SUM(avg_packets_lost_tx)'])
+			            ->setCellValue('E'.$y,$Reg['AVG(avg_percent_packet_loss_tx)']);
+			            
+			$objPHPExcel->getActiveSheet()->getStyle('A'.$y)->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+			$objPHPExcel->getActiveSheet()->getStyle('B'.$y)->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+			$objPHPExcel->getActiveSheet()->getStyle('C'.$y)->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+			$objPHPExcel->getActiveSheet()->getStyle('D'.$y)->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+			$objPHPExcel->getActiveSheet()->getStyle('E'.$y)->getBorders()->getAllBorders()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+
+			 $y=$y+1;
+
+	     }       
+
+	    // PAGINA 7
+		// DETALLE DE LLAMADAS SALIENTES POR DIA
+		$objPHPExcel->createSheet(NULL, 6);
+		$objPHPExcel->setActiveSheetIndex(6);
+		$objPHPExcel->getActiveSheet()->setTitle("OUT_por_dia");
+
+		// PAGINA 8
+		// GRAFICO CANTIDAD DE LLAMADAS SALIENTES POR DIA
+		$objPHPExcel->createSheet(NULL, 7);
+		$objPHPExcel->setActiveSheetIndex(7);
+		$objPHPExcel->getActiveSheet()->setTitle("OUT_por_dia_chart");
+
+		// PAGINA 9
+		// DETALLE LLAMADAS SALIENTES POR TIPO DE TERMINAL - Total de llamadas y duración por Tipo de Sitio		
+		$objPHPExcel->createSheet(NULL, 8);
+		$objPHPExcel->setActiveSheetIndex(8);
+		$objPHPExcel->getActiveSheet()->setTitle("OUT_por_tipo");
+
+		// PAGINA 10
+		// DETALLE LLAMADAS SALIENTES POS SITIO - Total de llamadas y duración por Sitio		
+		$objPHPExcel->createSheet(NULL, 9);
+		$objPHPExcel->setActiveSheetIndex(9);
+		$objPHPExcel->getActiveSheet()->setTitle("OUT_por_sitio");
+
+		// PAGINA 11
+		// DETALLE DE EXPERIENCIA POR SITIO SALIENTES - QoE - Calidad de la Experiencia				
+		$objPHPExcel->createSheet(NULL, 10);
+		$objPHPExcel->setActiveSheetIndex(10);
+		$objPHPExcel->getActiveSheet()->setTitle("OUT_QOE");
+
+	//########### SEND HEADERS ################	
+	header('Content-Type: application/vnd.ms-excel');
+	header('Content-Disposition: attachment;filename="New_Reporte.xls"');
+	header('Cache-Control: max-age=0');
+
+	$objWriter=PHPExcel_IOFactory::createWriter($objPHPExcel,'Excel5');
+	$objWriter->save('php://output');
+	exit;
+?>

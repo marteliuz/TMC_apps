@@ -1,0 +1,168 @@
+/* TILES */ 
+/*General*/
+/* METRO UI TEMPLATE
+/* Copyright 2012 Thomas Verelst, http://metro-webdesign.info*/
+
+/*GENERAL*/
+html{
+	
+	font-family:  'Open Sans', Segoe UI light, Tahoma,Helvetica,sans-serif;
+	font-size:13px;
+	color: #FFF; /* MAIN color for site things, but not for CONTENT!! */
+	
+}
+body{
+	margin:0;
+	padding:0;
+}
+}
+body#body{
+	margin:0;
+	padding:0;
+	font-family:  'Open Sans', Segoe UI light, Tahoma,Helvetica,sans-serif;
+	font-size:13px;
+	color: #444; /* MAIN color for site things, but not for CONTENT!! */
+	
+}
+/*LAYOUT PARTS*/
+#wrapper{
+	margin:0 0 0 20px;
+	overflow:hidden;
+}
+#headerWrapper{
+	padding: 5px 0 7px 0;
+	z-index:2;
+	overflow:hidden;
+}
+#header{
+	max-width:900px;/* MAX WIDTH OF PAGE*/
+	padding-left:15px;
+	margin: 0 auto;
+	overflow:hidden;
+}
+#headerTitles{
+	float:left;
+	display:inline-block;
+}
+#header h1{
+	margin-top:0;
+	margin-bottom:0;
+	
+}
+#header h2{
+	margin: 0 0 0 3px;
+	z-index:12;
+}
+#contentWrapper{
+	max-width: 900px; /* MAX WIDTH OF PAGE*/
+	min-width: 400px;
+	min-height:400px;
+	margin:0 auto 60px auto; /* auto margin to center horizontally*/
+	padding:0 20px 30px 20px;
+	z-index:4;
+}
+div.pageContent{
+	height:auto !important;
+}
+#content{	
+	-webkit-transition:margin-left 600ms;
+	-moz-transition:margin-left 600ms;
+	-o-transition:margin-left 600ms;
+	-ms-transition:margin-left 600ms;
+	transition:margin-left 600ms;
+	z-index:4;
+	font-weight:normal;
+}
+#footer{ /*show a little footer in the rightdown corner*/
+	position:fixed;
+	bottom:0;
+	right:0;
+	padding:1px;
+	font-weight:lighter;
+	text-decoration:none;
+	z-index:50; /* draw it on top of everything */
+}
+#footer:hover{
+	cursor:default;
+}
+img#arrowLeft,img#arrowRight{
+	position:absolute;
+	margin-top:60px;
+	opacity: 0.5;
+	filter:  alpha(opacity=50);
+	height:32px;
+	display:none;
+}
+img#arrowLeft:hover,img#arrowRight:hover{
+	cursor:pointer;
+}
+/* General Navigation */
+#siteTitle{ /*the siteName */
+	text-decoration:none;
+	font-weight:lighter;
+	z-index:12;
+}
+.groupTitle{ /*the title of the tilegroups*/	
+	position:absolute;
+	text-decoration:none;
+}
+.groupTitle h3{
+	margin:0;
+	font-weight:lighter;
+}
+
+h1{
+	font-size:38px;
+	font-weight:300;
+	margin:20px 0 0px 0;
+	color:#FFFFFF;
+}
+h2{
+	font-size:38px;
+	font-weight:300;
+	margin:20px 0 2px 0;
+	color:#222;
+}
+h3{
+	font-size:22px;
+	font-weight:normal;
+	margin:20px 0 2px 0;
+	color:#444;
+}
+h4{
+	font-size:18px;
+	font-weight:300;
+	margin:15px 0 2px 0;
+	color:#FFFFFF;
+}
+h5{
+	font-size:13px;
+	font-weight:normal;
+	margin:13px 0 2px 0;
+	color:#444;
+}
+h6{
+	font-size:12px;
+	font-weight:normal;
+	margin:10px 0 2px 0;
+	color:#444;
+}
+
+input[type=text], input[type=password]
+{
+    background-color: #FFFFFF;
+    border:solid 0px #BFBDBD;
+    color: #979797;
+    height: 28px;
+    padding-left:7px;
+    width: 250px;
+    box-shadow: 1px 1px 0 #828181 inset;
+}
+input[type=text], input[type=password]
+{
+    border: 0.5;
+    border-radius:4px;
+    font-family:  'Open Sans', Segoe UI light, Tahoma,Helvetica,sans-serif;
+	color: #444;
+}
+

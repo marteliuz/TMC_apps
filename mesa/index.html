@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Mesa Ayuda</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/fuente1.css" media="screen" />
+	<script src="jquery.js" type="text/javascript"></script> 
+	<script type="text/javascript">
+	function borracampo(){
+ if( document.frm.user.value == " Usuario")
+   document.frm.user.value = ""
+}
+
+function restauracampo(){
+ if( document.frm.user.value=="")
+   document.frm.user.value=" Usuario"
+ }
+ 	</script>
+	<script type="text/javascript">
+
+        function pwdFocus() {
+            $('#fakepassword').hide();
+            $('#password').show();
+            $('#password').focus();
+        }
+
+        function pwdBlur() {
+            if ($('#password').attr('value') == '') {
+                $('#password').hide();
+                $('#fakepassword').show();
+            }
+        }
+    </script>
+	<style type="text/css">
+	hr.linea { 
+	height: 1px;
+	border: 0;
+	color: #cc0000;
+	background-color: #616161;
+	width: 80%;
+	} 
+	</style>
+</head>
+<body bgcolor="#FF4000" text="#FFFFFF" link="#8BACFF" alink="#8BACFF" vlink="#8BACFF">
+<br><br><br><br>
+    <div="header">
+		<table align="left" width="570" cellspacing="2" cellpadding="2" border="0" style="position:absolute;top:90px;left:125px;">
+		<tr>
+		<td><img src="tm2.png" alt="tm" height="50" width="50" /></td>
+		<td><h1>Mesa de Ayuda</h1></td>
+		<td><h2>Touch Media</h2></td>
+		</tr>
+		</table>
+	</div><br><br><br><br><br><br>
+	<div id="headerh2">
+    <form name="frm" method="post">
+		<table align="left" width="350" cellspacing="2" cellpadding="2" border="0" style="position:absolute;top:200px;left:45px;"> 
+		<tr> 
+			<td width=100><td>
+			<td colspan="2" align="left"><br>
+				<p><a href="inicio1.html"><img name="Ingresar" type="image" value="Ingresar" src="boton_inicio_sesion.png" title="Iniciar sesión"/></a>
+			</td>
+		</tr>
+		</table>
+	</form>
+	</div>
+</body>
+
+</html>
+<footer>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<HR class="linea">
+<div align=right><h5><B>Gestión Audiovisual &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B><h5></div>
+<div><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+©2014 Derechos Reservados</h6></div>
+
+</footer>

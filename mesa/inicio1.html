@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script type="text/javascript" src="funciones.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/fuente1.css" media="screen" />
+<title>Mesa Ayuda</title>
+<style type="text/css">
+#contenedor {
+width: 968px;
+}
+#cuerpo {
+height: 440px;
+}
+#Step1 {
+	position:absolute;
+	left:87px;
+	top:10px;
+	width:204px;
+	height:173px;
+	z-index:1;
+}
+#Step2 {
+	position:absolute;
+	left:196px;
+	top:7px;
+	width:407px;
+	height:174px;
+	z-index:2;
+}
+#Step3 {
+	position:absolute;
+	left:8px;
+	top:232px;
+	width:325px;
+	height:189px;
+	z-index:3;
+}
+#Step4 {
+	position:absolute;
+	left:798px;
+	top:6px;
+	width:443px;
+	height:176px;
+	z-index:4;
+}
+#footer {
+position:relative;
+height:150px;
+margin-top:10px;
+}
+#img {
+position:relative;
+width: 100px;
+left: 10px;
+right: 500px;
+top: 0px;
+}
+#titulo {
+position:relative;
+width: 100px;
+left: 200px;
+right: 500px;
+top: -120px;
+}
+
+#subtitulo {
+position:relative;
+width: 600px;
+left: 640px;
+right: 100px;
+top: -170px;
+}
+#atras {
+	position:absolute;
+	right: 10px;
+	left: 1277px;
+	top: 6px;
+	width: 57px;
+}
+#Step5 {
+	position:absolute;
+	left:334px;
+	top:9px;
+	width:738px;
+	height:171px;
+	z-index:5;
+}
+#Step6 {
+	position:absolute;
+	left:334px;
+	top:7px;
+	width:618px;
+	height:176px;
+	z-index:6;
+}
+#Step7 {
+	position:absolute;
+	left:1049px;
+	top:1px;
+	width:225px;
+	height:183px;
+	z-index:7;
+}
+#Step8 {
+	position:absolute;
+	left:656px;
+	top:565px;
+	width:679px;
+	height:145px;
+	z-index:8;
+}
+
+#Step9 {
+	position:absolute;
+	left:9px;
+	top:135px;
+	width:166px;
+	height:127px;
+	z-index:9;
+}
+</style>
+</head>
+<B><font color=#444 size=5>Tipo Problema</font></B><br><p>
+<body bgcolor="#FF4000" text="#FFFFFF" link="#33FFFF" alink="#FFFFFF" vlink="#33FFFF"> 
+<div id="contenedor">
+<div id="cuerpo">
+  <p>
+    <label>
+      <input type="radio" name="r" id="red" value= "red" onClick="javascript:Step1()">
+      Problema de Red</label>
+    	           <br>
+    <label>
+      <input type="radio" name="r" id="audio" value= "audio" onClick="javascript:Step1()">
+      Problema de Audio</label>
+    <br>
+    <label>
+      <input type="radio" name="r" id="video" value= "video" onClick="javascript:Step1()">
+      Problema de Video</label>
+    <br>
+    <a  id="atras" href="index.html"><img name="atras" type="image" value="atras" src="boton_atras.png" title="volver a inicio"/></a>
+
+<div id="Step3"></div>
+<div id="Step4"></div>
+<div id="Step6"></div>
+<div id="Step7"></div>
+<div id="Step9"></div>
+</div>
+</div>
+</div>
+</body>
+</html>
