@@ -1,0 +1,2617 @@
+2011-07-07 12:28:35,500 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:38:47,875 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 20:38:47,953 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 20:38:47,953 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 20:38:48,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 20:38:48,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 20:38:48,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 20:38:48,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 20:38:48,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 20:38:48,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 20:38:48,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 20:38:48,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 20:38:48,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 20:38:48,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 20:38:48,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:01:56
+
+2011-07-11 20:38:48,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 20:38:48,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 20:38:48,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:01:55
+
+2011-07-11 20:38:48,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 20:38:48,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         537
+
+2011-07-11 20:38:48,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 20:38:48,453 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 20:38:55 
+
+2011-07-11 20:38:48,453 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 20:38:48,453 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 20:38:48,453 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 20:38:48,453 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 20:38:48,453 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 20:38:48,453 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 20:38:48,453 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 20:38:48,453 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 20:38:48,453 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 20:38:48,453 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 20:38:48,453 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 20:38:53,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:38:58,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:39:03,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:39:08,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:39:13,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:39:18,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:39:23,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:39:28,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:39:33,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:39:38,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:39:43,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:39:48,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:39:53,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:39:58,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:40:03,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:40:08,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:40:13,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:40:18,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:40:23,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:40:28,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- idle
+2011-07-11 20:40:33,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- idle
+2011-07-11 20:40:38,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- idle
+2011-07-11 20:40:43,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- idle
+2011-07-11 20:40:48,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=2 -- idle
+2011-07-11 20:40:53,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=2 -- idle
+2011-07-11 20:40:58,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=2 -- idle
+2011-07-11 20:41:03,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=2 -- idle
+2011-07-11 20:41:08,453 DEBUG : ecmanager:96 - Heartbeat __**__ threads=2 -- idle
+2011-07-11 20:41:21,171 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 20:41:21,171 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 20:41:21,187 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 20:41:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 20:41:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 20:41:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 20:41:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 20:41:21,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 20:41:21,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 20:41:21,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 20:41:21,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:01:56
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:01:55
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         537
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 20:41:28 
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 20:41:21,640 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 20:41:26,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:41:31,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:41:36,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:41:41,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:41:46,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:41:51,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:41:56,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:42:01,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:42:06,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:42:11,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:42:16,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:42:21,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:42:26,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:42:31,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:42:36,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:42:41,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:42:46,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:42:51,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:42:56,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:43:01,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:43:06,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:43:11,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:43:16,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:43:21,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:43:26,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:43:31,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:43:36,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:43:37,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[36] name[Juan Francisco Roco (LT)] type[h323]
+
+2011-07-11 20:43:37,967 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 20:43:38,203 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[36] name[8980222] type[h323]
+
+2011-07-11 20:43:38,203 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 20:43:42,655 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[36] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 20:43:42,655 DEBUG : ecmanager:96 - Status is now: dialing
+2011-07-11 20:43:42,858 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[36] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 20:43:42,858 DEBUG : ecmanager:96 - Status is now: dialing
+2011-07-11 20:43:43,062 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[36] speed[256]
+
+2011-07-11 20:43:43,062 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 20:43:48,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 20:43:53,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 20:43:58,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 20:44:01,015 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[36]
+
+2011-07-11 20:44:01,015 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 20:44:01,155 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 20:44:01,155 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[36]
+
+2011-07-11 20:44:01,155 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 20:44:06,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:44:11,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:44:16,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:44:21,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:44:26,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:44:31,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:44:36,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:44:41,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:44:46,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:44:51,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:44:56,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:45:01,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:45:06,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:45:11,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:45:16,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:45:21,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:45:26,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:45:31,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:45:36,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:45:41,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:45:46,155 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:45:47,687 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[37] name[Juan Francisco Roco (LT)] type[h323]
+
+2011-07-11 20:45:47,687 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 20:45:50,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[37] name[8980222] type[h323]
+
+2011-07-11 20:45:50,233 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 20:45:51,171 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[37] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 20:45:51,171 DEBUG : ecmanager:96 - Status is now: dialing
+2011-07-11 20:45:51,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[37] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 20:45:51,296 DEBUG : ecmanager:96 - Status is now: dialing
+2011-07-11 20:45:52,796 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[37] speed[256]
+
+2011-07-11 20:45:52,796 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 20:45:57,796 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 20:45:57,828 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[37]
+
+2011-07-11 20:45:57,828 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 20:45:57,937 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 20:45:57,937 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[37]
+
+2011-07-11 20:45:57,937 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 20:46:02,937 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:46:07,937 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:46:12,937 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:46:17,937 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:46:22,937 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:46:27,937 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:46:32,937 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:46:37,937 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:46:42,937 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:46:47,937 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:46:52,937 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:46:57,937 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:47:02,937 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:47:07,937 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:47:11,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[8980222] state[ALLOCATED]
+
+2011-07-11 20:47:11,717 DEBUG : ecmanager:96 - Status is now: dialing
+2011-07-11 20:47:12,140 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 20:47:12,140 DEBUG : ecmanager:96 - Status is now: dialing
+2011-07-11 20:47:12,280 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[8980222] state[BONDING]
+
+2011-07-11 20:47:12,280 DEBUG : ecmanager:96 - Status is now: dialing
+2011-07-11 20:47:12,280 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[209.130.214.7] state[BONDING]
+
+2011-07-11 20:47:12,280 DEBUG : ecmanager:96 - Status is now: dialing
+2011-07-11 20:47:17,280 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- dialing
+2011-07-11 20:47:22,280 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- dialing
+2011-07-11 20:47:27,280 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- dialing
+2011-07-11 20:47:32,280 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- dialing
+2011-07-11 20:47:35,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[38]
+
+2011-07-11 20:47:35,640 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 20:47:35,812 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:8980222]
+
+2011-07-11 20:47:35,812 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[38]
+
+2011-07-11 20:47:35,812 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 20:47:40,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:47:45,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:47:50,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:47:55,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:48:00,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:48:05,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:48:10,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:48:15,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:48:20,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:48:25,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:48:30,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:48:35,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:48:40,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:48:45,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:48:50,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:48:55,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:49:00,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:49:05,812 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:49:44,000 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 20:49:44,000 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 20:49:44,000 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 20:49:44,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 20:49:44,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 20:49:44,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 20:49:44,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 20:49:44,265 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:21
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:20
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         540
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 20:49:51 
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 20:49:44,467 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 20:49:49,467 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:49:54,467 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:49:56,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[39] chan[0] dialstr[8980222] state[ALLOCATED]
+
+2011-07-11 20:49:56,967 DEBUG : ecmanager:96 - Status is now: dialing
+2011-07-11 20:49:57,140 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[39] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 20:49:57,140 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[39] chan[0] dialstr[8980222] state[BONDING]
+
+2011-07-11 20:49:57,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[39] chan[0] dialstr[209.130.214.7] state[BONDING]
+
+2011-07-11 20:50:02,342 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- dialing
+2011-07-11 20:50:07,342 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- dialing
+2011-07-11 20:50:12,342 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- dialing
+2011-07-11 20:50:17,342 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- dialing
+2011-07-11 20:50:19,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[39]
+
+2011-07-11 20:50:19,875 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 20:50:20,062 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:8980222]
+
+2011-07-11 20:50:20,062 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[39]
+
+2011-07-11 20:50:20,062 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 20:50:25,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:50:30,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:50:35,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:50:40,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:50:45,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:50:50,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:50:55,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:51:00,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:51:05,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:51:10,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:51:15,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:51:20,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:51:25,062 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:51:25,078 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[36] name[Juan Francisco Roco (LT)] type[h323]
+
+2011-07-11 20:51:25,078 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 20:51:26,062 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[36] name[8980222] type[h323]
+
+2011-07-11 20:51:26,062 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 20:51:26,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[36] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 20:51:26,750 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[36] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 20:51:29,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[36] speed[256]
+
+2011-07-11 20:51:29,578 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 20:51:34,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 20:51:36,842 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[36]
+
+2011-07-11 20:51:36,842 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 20:51:37,015 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 20:51:37,015 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[36]
+
+2011-07-11 20:51:37,015 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 20:51:42,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:51:47,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:51:52,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:51:57,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:52:02,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:52:07,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:52:12,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:52:17,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:52:22,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:52:27,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:52:32,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:52:37,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:52:42,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:52:47,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:52:52,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:52:57,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:53:02,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:53:07,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:53:12,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:53:17,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:53:22,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:53:27,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:53:32,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:53:37,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:53:42,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:53:47,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:53:52,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:53:57,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:54:02,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:54:07,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:54:12,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:54:17,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:54:22,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:54:27,015 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:54:28,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[37] name[Juan Francisco Roco (LT)] type[h323]
+
+2011-07-11 20:54:28,092 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 20:54:28,796 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[37] name[8980222] type[h323]
+
+2011-07-11 20:54:28,796 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 20:54:29,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[37] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 20:54:29,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[37] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 20:54:32,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[37] speed[256]
+
+2011-07-11 20:54:32,108 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 20:54:37,108 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 20:54:38,140 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[37]
+
+2011-07-11 20:54:38,140 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 20:54:38,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 20:54:38,578 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[37]
+
+2011-07-11 20:54:38,578 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 20:54:43,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:54:48,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:54:53,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:54:58,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:55:03,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:55:08,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:55:13,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:55:18,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:55:23,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:55:28,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:55:33,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:55:38,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:55:43,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:55:48,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:55:53,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:55:58,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:56:03,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:56:08,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:56:13,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:56:18,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:56:23,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:56:28,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:56:33,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:56:38,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:56:43,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:56:48,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:56:53,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:56:58,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:57:03,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:57:08,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:57:13,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:57:18,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:57:23,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:57:28,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:57:33,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:57:38,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:57:43,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:57:48,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:57:53,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:57:58,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:58:03,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:58:08,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:58:13,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:58:18,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:58:23,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:58:28,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:58:33,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:58:38,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:58:43,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:58:48,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:58:53,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:58:58,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:59:03,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:59:08,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:59:13,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:59:18,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:59:23,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:59:28,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:59:33,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:59:38,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:59:43,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:59:48,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:59:53,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 20:59:58,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:00:03,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=5 -- idle
+2011-07-11 21:00:13,765 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:00:13,765 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:00:13,765 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:00:13,828 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:00:13,828 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:00:13,828 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:00:13,828 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:07
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:06
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         543
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:00:20 
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:00:14,233 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:00:19,233 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:00:24,233 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:00:25,203 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[38] name[Juan Francisco Roco (LT)] type[h323]
+
+2011-07-11 21:00:25,203 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:00:25,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[38] name[8980222] type[h323]
+
+2011-07-11 21:00:25,421 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:00:27,733 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 21:00:27,905 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 21:00:29,592 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[38] speed[256]
+
+2011-07-11 21:00:29,592 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 21:00:34,592 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:00:39,592 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:00:44,608 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:00:49,608 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:00:54,608 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:00:59,608 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:01:04,608 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:01:09,608 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:01:14,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:01:19,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:01:24,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:01:29,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:01:34,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:01:39,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:01:44,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:01:49,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:01:54,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:01:59,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:02:04,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:02:09,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:02:14,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:02:19,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:02:24,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:02:29,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:02:34,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:02:39,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:02:44,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:02:49,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:02:54,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:02:59,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:03:04,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:03:09,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:03:14,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:03:19,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:03:24,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:03:29,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:03:34,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=5 -- busy
+2011-07-11 21:03:39,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- busy
+2011-07-11 21:03:44,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- busy
+2011-07-11 21:03:49,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- busy
+2011-07-11 21:03:54,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- busy
+2011-07-11 21:03:59,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- busy
+2011-07-11 21:04:04,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- busy
+2011-07-11 21:04:09,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- busy
+2011-07-11 21:04:14,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=2 -- busy
+2011-07-11 21:04:19,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=2 -- busy
+2011-07-11 21:04:27,671 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:04:27,671 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:04:27,671 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:04:27,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:04:27,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:04:27,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:04:27,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:07
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:06
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         543
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:04:34 
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:04:28,108 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:04:28,125 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:04:28,125 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:04:28,125 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:04:28,125 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:04:28,125 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:04:28,125 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:04:28,125 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo begin
+
+2011-07-11 21:04:28,125 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo:38:Juan Francisco Roco (LT):8980222:256:connected:notmuted:incoming:videocall
+
+2011-07-11 21:04:28,125 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 21:04:28,125 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo end
+
+2011-07-11 21:04:33,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:04:38,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:04:43,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:04:48,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:04:53,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:04:58,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:05:03,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:05:08,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:05:13,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:05:18,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:05:23,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:05:28,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:05:33,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:05:38,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:05:43,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:05:48,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:05:53,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:05:58,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:06:03,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:06:08,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:06:13,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:06:18,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:06:23,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:06:28,125 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:06:33,140 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:06:33,733 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[38]
+
+2011-07-11 21:06:33,733 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:06:33,858 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 21:06:34,046 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[38]
+
+2011-07-11 21:06:34,046 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:06:39,046 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:06:44,046 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:06:49,046 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:06:54,046 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:06:59,046 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:07:04,046 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:07:09,046 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:07:14,046 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:07:19,046 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:07:24,046 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:07:29,046 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:07:34,046 DEBUG : ecmanager:96 - Heartbeat __**__ threads=5 -- idle
+2011-07-11 21:07:45,217 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:07:45,217 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:07:45,217 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:07:45,265 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:07:45,265 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:07:45,265 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:07:45,265 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:07:45,655 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:06:09
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:06:08
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         544
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:07:52 
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:07:45,671 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:07:50,671 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:07:55,671 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:08:00,671 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:08:05,671 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:08:10,671 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:08:15,671 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:08:20,671 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:08:25,671 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:08:39,342 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:08:39,342 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:08:39,342 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:08:39,390 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:08:39,390 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:08:39,390 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:08:39,390 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:08:39,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:06:09
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:06:08
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         544
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:08:46 
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:08:39,780 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:08:44,780 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:08:49,780 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:08:52,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[39] name[8980222] type[h323]
+
+2011-07-11 21:08:52,233 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:08:52,358 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[39] name[Juan Francisco Roco (LT)] type[h323]
+
+2011-07-11 21:08:52,358 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:08:53,796 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[39] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 21:08:53,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[39] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 21:08:56,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[39] speed[256]
+
+2011-07-11 21:08:56,562 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 21:09:01,562 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:09:04,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[39]
+
+2011-07-11 21:09:04,092 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:09:04,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 21:09:04,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[39]
+
+2011-07-11 21:09:04,217 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:09:09,217 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:09:14,217 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:09:19,217 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:09:24,217 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:09:29,217 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:09:34,217 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:09:39,217 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:09:44,217 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:09:49,217 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:09:54,217 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:09:59,217 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:10:04,217 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:10:09,217 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:10:14,217 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:10:19,217 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:10:46,203 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:10:46,203 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:10:46,217 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:10:46,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:10:46,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:10:46,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:10:46,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:11
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:11
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         545
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:10:53 
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:10:46,625 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:10:51,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:10:56,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:11:01,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:11:06,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:11:11,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:11:16,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:11:21,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:11:26,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:11:31,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:11:36,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:11:41,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:11:46,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:11:51,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:11:56,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:12:01,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:12:06,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:12:11,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:12:16,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:12:21,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:12:26,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:12:31,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:12:36,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:12:41,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:12:46,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:12:51,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=5 -- idle
+2011-07-11 21:12:56,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- idle
+2011-07-11 21:13:01,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- idle
+2011-07-11 21:13:06,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- idle
+2011-07-11 21:13:11,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- idle
+2011-07-11 21:13:16,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- idle
+2011-07-11 21:13:21,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- idle
+2011-07-11 21:13:26,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- idle
+2011-07-11 21:13:31,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- idle
+2011-07-11 21:13:36,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- idle
+2011-07-11 21:13:41,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=3 -- idle
+2011-07-11 21:13:46,625 DEBUG : ecmanager:96 - Heartbeat __**__ threads=2 -- idle
+2011-07-11 21:13:55,155 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:13:55,155 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:13:55,155 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:13:55,203 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:13:55,203 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:13:55,203 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:13:55,203 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:13:55,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:13:55,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:13:55,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:13:55,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:13:55,625 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:11
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:11
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         545
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:14:02 
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:13:55,640 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:14:00,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:14:05,640 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:14:45,280 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:14:45,280 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:14:45,280 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:14:45,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:14:45,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:14:45,358 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:14:45,358 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:11
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:11
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         545
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:14:52 
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:14:45,717 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:14:50,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:14:55,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:15:00,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:15:05,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:15:10,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:15:15,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:15:20,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:15:25,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:15:30,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:15:35,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:15:40,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:15:45,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:15:50,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:15:55,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:16:00,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:16:05,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:16:10,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:16:15,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:16:33,562 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:16:33,562 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:16:33,562 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:16:33,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:16:33,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:16:33,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:16:33,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:11
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:11
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         545
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:16:40 
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:16:33,953 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:16:38,953 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:16:43,953 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:16:48,953 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:16:53,953 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:16:58,953 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:17:03,953 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:17:08,953 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:17:36,625 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:17:36,625 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:17:36,625 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:17:36,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:17:36,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:17:36,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:17:36,671 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:17:36,890 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:17:37,015 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:17:37,015 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:11
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:11
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         545
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:17:43 
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:17:37,030 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:17:42,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:17:47,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:17:52,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:17:57,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:18:02,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:18:07,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:18:12,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:18:17,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:18:22,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:18:27,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:18:32,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:18:37,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:18:42,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:18:47,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:18:52,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:18:57,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:19:02,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:19:07,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:19:12,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:19:17,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:19:22,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:19:27,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:19:32,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:19:37,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:19:42,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:19:47,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:19:52,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:19:57,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:20:02,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:20:07,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:20:12,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:20:17,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:20:22,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:20:27,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:20:32,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:20:37,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:20:42,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:20:47,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:20:52,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:20:57,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:21:02,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:21:07,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:21:12,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:21:17,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:21:22,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:21:27,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:21:32,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:21:37,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:21:42,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:21:47,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:21:52,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:21:57,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:22:02,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:22:07,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:22:12,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:22:17,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:22:22,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:22:27,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:22:32,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:22:37,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:22:42,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:22:47,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:22:52,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:22:57,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:23:02,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:23:07,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:23:12,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:23:17,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:23:22,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:23:27,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:23:32,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:23:37,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:23:42,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:23:47,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:23:52,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:23:57,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:24:02,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:24:07,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:24:12,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:24:17,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:24:22,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:24:27,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:24:32,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:24:37,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:24:42,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:24:47,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:25:30,967 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:25:30,967 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:25:30,967 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:25:31,155 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:25:31,155 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:25:31,155 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:25:31,155 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:11
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:11
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         545
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:25:38 
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:25:31,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:25:31,578 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:25:31,578 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:25:36,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:25:41,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:25:46,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:25:51,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:25:56,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:26:01,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:26:06,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:26:11,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:26:32,875 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:26:32,875 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:26:32,875 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:26:32,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:26:32,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:26:32,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:26:32,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:11
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:11
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         545
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:26:39 
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:26:33,250 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:26:38,250 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:26:43,250 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:26:48,250 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:26:53,250 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:26:58,250 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:27:03,250 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:27:08,250 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:27:13,250 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:27:18,250 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:28:29,921 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:28:29,921 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:28:29,921 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:28:29,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:28:29,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:28:29,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:28:29,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:11
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:11
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         545
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:28:37 
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:28:30,328 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:28:35,328 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:28:40,328 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:28:44,078 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[36] name[Juan Francisco Roco (LT)] type[h323]
+
+2011-07-11 21:28:44,078 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:28:44,280 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[36] name[8980222] type[h323]
+
+2011-07-11 21:28:44,280 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:28:45,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[36] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 21:28:46,483 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[36] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 21:28:48,546 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[36] speed[256]
+
+2011-07-11 21:28:48,546 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 21:28:53,546 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:28:54,592 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[36]
+
+2011-07-11 21:28:54,592 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:28:54,765 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 21:28:54,765 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[36]
+
+2011-07-11 21:28:54,765 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:28:59,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:29:04,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:29:09,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:29:14,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:29:19,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:29:24,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:29:29,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:29:34,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:29:39,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:29:44,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:29:49,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:29:54,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:29:59,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:30:04,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:30:09,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:30:14,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:30:19,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:30:27,155 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:30:27,155 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:30:27,155 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:30:27,203 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:30:27,203 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:30:27,203 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:30:27,203 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:30:27,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:30:27,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:10
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:09
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         546
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:30:34 
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:30:27,608 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:30:32,608 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:30:37,608 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:30:42,608 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:30:47,608 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:30:47,937 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[37] name[Juan Francisco Roco (LT)] type[h323]
+
+2011-07-11 21:30:47,937 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:30:48,890 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[37] name[8980222] type[h323]
+
+2011-07-11 21:30:48,890 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:30:49,203 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[37] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 21:30:49,405 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[37] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 21:30:52,578 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[37] speed[256]
+
+2011-07-11 21:30:52,578 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 21:30:57,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:31:02,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:31:07,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:31:12,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:31:17,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:31:22,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:31:27,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:31:32,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:31:37,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:31:42,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:31:47,578 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:31:50,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[37]
+
+2011-07-11 21:31:50,608 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:31:52,687 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 21:31:52,796 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[37]
+
+2011-07-11 21:31:52,796 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:31:57,796 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:32:02,796 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:32:07,796 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:32:12,796 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:32:17,796 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:32:22,796 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:32:27,796 DEBUG : ecmanager:96 - Heartbeat __**__ threads=7 -- idle
+2011-07-11 21:32:30,483 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:32:30,483 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:32:30,500 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:32:30,546 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:32:30,546 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:32:30,546 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:32:30,546 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:01:03
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:01:02
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         547
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:32:37 
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:32:30,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:32:30,937 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:32:30,937 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:32:30,937 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:32:30,937 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:32:30,937 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:32:30,937 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:32:30,937 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:32:30,937 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:32:30,937 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:32:35,937 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:32:49,842 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:32:49,842 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:32:49,858 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:32:49,905 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:32:49,905 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:32:49,905 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:32:49,905 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:01:03
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:01:02
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         547
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:32:57 
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:32:50,342 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:32:55,342 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:32:56,155 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[38] name[Juan Francisco Roco (LT)] type[h323]
+
+2011-07-11 21:32:56,155 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:32:57,062 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[38] name[8980222] type[h323]
+
+2011-07-11 21:32:57,062 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:32:57,405 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 21:32:57,578 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 21:33:01,046 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[38] speed[256]
+
+2011-07-11 21:33:01,046 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 21:33:06,046 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:33:09,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[38]
+
+2011-07-11 21:33:09,608 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:33:09,750 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 21:33:09,750 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[38]
+
+2011-07-11 21:33:09,750 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:33:14,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:33:19,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:33:24,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:33:29,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:33:34,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:33:39,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:33:44,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:33:49,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:33:54,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:33:59,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:34:04,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:34:09,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:34:14,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:34:19,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:34:24,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:34:29,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:34:34,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:34:39,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:34:44,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:34:49,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:34:56,437 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:34:56,453 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:34:56,453 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:34:56,483 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:34:56,483 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:34:56,483 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:34:56,483 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:34:56,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:34:56,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:12
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:11
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         548
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:35:03 
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:34:56,875 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:35:01,875 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:35:06,875 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:35:11,875 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:35:16,875 DEBUG : ecmanager:96 - Heartbeat __**__ threads=6 -- idle
+2011-07-11 21:35:20,828 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:35:20,828 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:35:20,842 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:35:20,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:35:20,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:35:20,875 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:35:20,890 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:12
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:11
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         548
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:35:27 
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:35:21,217 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:35:21,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:35:21,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:35:21,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:35:21,233 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:35:21,233 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:35:26,233 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:35:31,233 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:35:36,233 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:35:41,233 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:35:46,233 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:35:51,233 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:35:56,233 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:35:58,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[39] name[8980222] type[h323]
+
+2011-07-11 21:35:58,953 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:35:59,140 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[39] name[Juan Francisco Roco (LT)] type[h323]
+
+2011-07-11 21:35:59,140 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:36:00,155 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[39] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 21:36:00,342 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[39] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 21:36:02,953 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[39] speed[256]
+
+2011-07-11 21:36:02,953 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 21:36:07,953 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:36:11,546 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[39]
+
+2011-07-11 21:36:11,546 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:36:11,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 21:36:11,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[39]
+
+2011-07-11 21:36:11,717 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:36:16,717 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:42:10,983 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:42:10,983 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:42:10,983 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:42:11,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:42:11,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:42:11,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:42:11,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:42:11,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:42:11,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:42:11,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:42:11,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:42:11,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:42:11,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:42:11,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:11
+
+2011-07-11 21:42:11,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:42:11,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:42:11,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:10
+
+2011-07-11 21:42:11,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:42:11,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         549
+
+2011-07-11 21:42:11,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:42:11,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:42:18 
+
+2011-07-11 21:42:11,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:42:11,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:42:11,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:42:11,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:42:11,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:42:11,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:42:11,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:42:11,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:42:11,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:42:11,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:42:11,437 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:42:16,437 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:42:21,437 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:42:26,437 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:42:31,437 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:45:08,578 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:45:08,578 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:45:08,578 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:45:08,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:45:08,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:45:08,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:45:08,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:11
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:10
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         549
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:45:15 
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:45:08,967 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:45:13,967 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:45:18,967 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:45:23,967 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:45:28,967 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:46:34,967 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:46:34,967 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:46:34,983 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:46:35,015 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:46:35,015 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:46:35,015 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:46:35,015 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:46:35,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:46:35,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:11
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:10
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         549
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:46:42 
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:46:35,375 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:46:35,390 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:46:35,390 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:46:35,390 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:46:35,390 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:46:35,390 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:46:35,390 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:46:40,390 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:46:45,390 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:46:50,390 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:46:55,390 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:47:00,390 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:47:01,250 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[36] name[Juan Francisco Roco (LT)] type[h323]
+
+2011-07-11 21:47:01,250 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:47:01,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[36] name[8980222] type[h323]
+
+2011-07-11 21:47:01,437 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:47:02,530 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[36] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 21:47:02,733 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[36] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 21:47:04,750 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[36] speed[256]
+
+2011-07-11 21:47:04,750 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 21:47:09,750 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:47:12,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[36]
+
+2011-07-11 21:47:12,717 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:47:12,890 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 21:47:12,890 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[36]
+
+2011-07-11 21:47:12,890 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:47:17,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:47:22,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:47:27,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:47:32,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:47:37,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:47:42,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:47:47,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:47:52,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:47:57,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:48:02,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:48:07,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:48:12,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:48:17,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:48:22,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:48:27,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:48:32,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:48:37,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:48:42,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:48:47,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:48:52,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:48:57,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:49:02,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:49:07,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:49:12,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:49:17,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:49:22,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:49:27,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:49:32,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:49:37,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:49:42,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:49:47,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:49:52,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:49:57,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:50:02,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:50:07,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:50:12,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:50:17,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:50:22,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:50:27,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:50:32,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:50:37,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:50:42,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:50:47,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:50:52,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:50:57,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:51:02,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:51:07,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:51:12,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:51:17,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:51:22,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:51:27,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:51:32,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:51:37,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:51:42,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:51:47,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:51:52,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:51:57,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:52:02,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:52:07,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:52:12,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:52:23,921 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:52:23,937 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:52:23,937 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:52:23,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:52:23,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:52:23,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:52:23,967 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:52:24,171 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:09
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:09
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         550
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:52:31 
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:52:24,296 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:52:29,296 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:52:34,296 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:52:36,421 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[37] chan[0] dialstr[8980222] state[ALLOCATED]
+
+2011-07-11 21:52:36,421 DEBUG : ecmanager:96 - Status is now: dialing
+2011-07-11 21:52:36,562 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[37] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 21:52:36,765 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[37] chan[0] dialstr[8980222] state[BONDING]
+
+2011-07-11 21:52:36,765 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[37] chan[0] dialstr[209.130.214.7] state[BONDING]
+
+2011-07-11 21:52:41,765 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- dialing
+2011-07-11 21:52:42,171 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[37] chan[0] dialstr[209.130.214.7] state[COMPLETE]
+
+2011-07-11 21:52:42,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[37] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 21:52:43,467 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[37] speed[384]
+
+2011-07-11 21:52:43,467 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 21:52:48,467 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:52:53,467 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:52:57,890 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[37]
+
+2011-07-11 21:52:57,890 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:52:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 21:52:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[37]
+
+2011-07-11 21:52:58,092 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:53:03,092 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:53:08,092 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:53:08,890 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[8980222] state[ALLOCATED]
+
+2011-07-11 21:53:08,890 DEBUG : ecmanager:96 - Status is now: dialing
+2011-07-11 21:53:09,905 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 21:53:10,062 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[8980222] state[BONDING]
+
+2011-07-11 21:53:10,062 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[209.130.214.7] state[BONDING]
+
+2011-07-11 21:53:13,765 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[209.130.214.7] state[COMPLETE]
+
+2011-07-11 21:53:13,890 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 21:53:15,078 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[38] speed[384]
+
+2011-07-11 21:53:15,078 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 21:53:18,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[38]
+
+2011-07-11 21:53:18,717 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:53:22,015 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 21:53:22,155 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[38]
+
+2011-07-11 21:53:22,155 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:54:57,546 WARNING : ecmanager:98 - Starting Easy Control Manager
+2011-07-11 21:54:57,546 DEBUG : ecmanager:96 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-11 21:54:57,546 DEBUG : ecmanager:96 - Starting API connection to codec 56.2.6.30 
+2011-07-11 21:54:57,655 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:54:57,655 DEBUG : ecmanager:96 - Message from 56.2.6.30: callstate register
+
+2011-07-11 21:54:57,655 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:54:57,655 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: Hi, my name is :     LTCL INGENIERIA 2
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: Here is what I know about myself:
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: Model:               HDX 8000 HD
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: Serial Number:       881032108F09CG
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: Software Version:    Release - 3.0.1-10628
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: Build Information:   Gamma_Integration
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: Time In Last Call:   00:00:11
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: 
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: -> callstate register
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Time In Calls: 00:00:10
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: callinfo all
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: Total Calls:         552
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: Local Time is:        Mon, 11 Jul 2011 21:55:04 
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: Network Interface:   NONE
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: IP Video Number:     56.2.6.30
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: Link-Local Address:  fe80::2e0:dbff:fe10:8f09/64
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: ISDN Video Number:   56.
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: H323 Enabled:        True
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: H320 Enabled:        False
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: HTTP Enabled:        True
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: SNMP Enabled:        True
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: info: event/notification already active:callstate
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: system is not in a call
+
+2011-07-11 21:54:58,092 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:55:03,092 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:55:06,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[39] chan[0] dialstr[8980222] state[ALLOCATED]
+
+2011-07-11 21:55:06,296 DEBUG : ecmanager:96 - Status is now: dialing
+2011-07-11 21:55:06,437 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[39] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 21:55:06,812 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[39] chan[0] dialstr[8980222] state[BONDING]
+
+2011-07-11 21:55:06,937 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[39] chan[0] dialstr[209.130.214.7] state[BONDING]
+
+2011-07-11 21:55:09,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[39] chan[0] dialstr[209.130.214.7] state[COMPLETE]
+
+2011-07-11 21:55:09,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[39] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 21:55:10,483 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[39] speed[384]
+
+2011-07-11 21:55:10,483 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 21:55:15,483 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:55:15,717 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[39]
+
+2011-07-11 21:55:15,717 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:55:15,890 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 21:55:15,890 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[39]
+
+2011-07-11 21:55:15,890 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:55:20,890 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:55:24,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[36] chan[0] dialstr[8980222] state[ALLOCATED]
+
+2011-07-11 21:55:24,921 DEBUG : ecmanager:96 - Status is now: dialing
+2011-07-11 21:55:25,125 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[36] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 21:55:25,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[36] chan[0] dialstr[8980222] state[BONDING]
+
+2011-07-11 21:55:25,453 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[36] chan[0] dialstr[209.130.214.7] state[BONDING]
+
+2011-07-11 21:55:27,483 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[36] chan[0] dialstr[209.130.214.7] state[COMPLETE]
+
+2011-07-11 21:55:28,171 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[36] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 21:55:29,280 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[36] speed[384]
+
+2011-07-11 21:55:29,280 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 21:55:34,280 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:55:39,280 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:55:44,280 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:55:49,280 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:55:49,905 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[36]
+
+2011-07-11 21:55:49,905 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:55:50,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 21:55:50,092 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[36]
+
+2011-07-11 21:55:50,092 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:55:55,092 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:56:00,092 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:56:05,092 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:56:06,828 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[37] name[Juan Francisco Roco (LT)] type[h323]
+
+2011-07-11 21:56:06,828 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:56:07,640 DEBUG : ecmanager:96 - Message from 56.2.6.30: incoming: call[37] name[8980222] type[h323]
+
+2011-07-11 21:56:07,640 DEBUG : ecmanager:96 - Status is now: ringing
+2011-07-11 21:56:09,453 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[37] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 21:56:09,608 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[37] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 21:56:10,921 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[37] speed[256]
+
+2011-07-11 21:56:10,921 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 21:56:15,921 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:56:17,750 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[37]
+
+2011-07-11 21:56:17,750 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:56:17,858 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 21:56:17,858 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[37]
+
+2011-07-11 21:56:17,858 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:56:22,858 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:56:27,858 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:56:32,858 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:56:37,858 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:56:42,858 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:56:47,858 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:56:52,858 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:56:57,858 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:57:02,858 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:57:07,858 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:57:12,858 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:57:17,858 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:57:22,858 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:57:25,296 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[8980222] state[ALLOCATED]
+
+2011-07-11 21:57:25,296 DEBUG : ecmanager:96 - Status is now: dialing
+2011-07-11 21:57:25,453 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[8980222] state[RINGING]
+
+2011-07-11 21:57:25,655 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[8980222] state[BONDING]
+
+2011-07-11 21:57:25,655 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[209.130.214.7] state[BONDING]
+
+2011-07-11 21:57:29,328 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[209.130.214.7] state[COMPLETE]
+
+2011-07-11 21:57:29,483 DEBUG : ecmanager:96 - Message from 56.2.6.30: cs: call[38] chan[0] dialstr[8980222] state[COMPLETE]
+
+2011-07-11 21:57:30,592 DEBUG : ecmanager:96 - Message from 56.2.6.30: active: call[38] speed[384]
+
+2011-07-11 21:57:30,592 DEBUG : ecmanager:96 - Status is now: busy
+2011-07-11 21:57:35,592 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- busy
+2011-07-11 21:57:38,203 DEBUG : ecmanager:96 - Message from 56.2.6.30: cleared: call[38]
+
+2011-07-11 21:57:38,203 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:57:38,796 DEBUG : ecmanager:96 - Message from 56.2.6.30: dialstring[ADDRESS:8980222 NAME:Juan Francisco Roco (LT)]
+
+2011-07-11 21:57:39,030 DEBUG : ecmanager:96 - Message from 56.2.6.30: ended: call[38]
+
+2011-07-11 21:57:39,030 DEBUG : ecmanager:96 - Status is now: idle
+2011-07-11 21:57:44,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle
+2011-07-11 21:57:49,030 DEBUG : ecmanager:96 - Heartbeat __**__ threads=15 -- idle

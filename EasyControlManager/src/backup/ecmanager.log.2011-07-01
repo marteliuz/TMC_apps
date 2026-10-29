@@ -1,0 +1,1547 @@
+2011-07-01 20:08:42,591 WARNING : ecmanager:86 - Starting Easy Control Manager
+2011-07-01 20:08:42,605 DEBUG : ecmanager:84 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:08:42,621 DEBUG : ecmanager:84 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:08:42,653 DEBUG : ecmanager:84 - Message from 56.2.6.53: 
+
+2011-07-01 20:08:42,653 DEBUG : ecmanager:84 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:08:42,653 DEBUG : ecmanager:84 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:08:42,653 DEBUG : ecmanager:84 - Message from 56.2.6.53: 
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: Time In Last Call:   00:00:48
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: 
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: Total Time In Calls: 00:00:47
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: Total Calls:         616
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:08:35 
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:08:43,105 DEBUG : ecmanager:84 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:08:48,105 DEBUG : ecmanager:84 - Heartbeat __**__ threads=15 
+2011-07-01 20:08:53,105 DEBUG : ecmanager:84 - Heartbeat __**__ threads=15 
+2011-07-01 20:08:58,105 DEBUG : ecmanager:84 - Heartbeat __**__ threads=15 
+2011-07-01 20:09:03,105 DEBUG : ecmanager:84 - Heartbeat __**__ threads=15 
+2011-07-01 20:09:08,105 DEBUG : ecmanager:84 - Heartbeat __**__ threads=15 
+2011-07-01 20:09:13,105 DEBUG : ecmanager:84 - Heartbeat __**__ threads=15 
+2011-07-01 20:09:18,105 DEBUG : ecmanager:84 - Heartbeat __**__ threads=15 
+2011-07-01 20:09:23,105 DEBUG : ecmanager:84 - Heartbeat __**__ threads=15 
+2011-07-01 20:09:28,105 DEBUG : ecmanager:84 - Heartbeat __**__ threads=15 
+2011-07-01 20:09:33,105 DEBUG : ecmanager:84 - Heartbeat __**__ threads=15 
+2011-07-01 20:11:18,246 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:11:18,246 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:11:18,246 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:11:18,293 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:11:18,293 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:11:18,293 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:11:18,293 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:48
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:47
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         616
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:11:10 
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:11:18,684 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:11:23,684 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:11:28,684 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:11:33,700 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:11:38,700 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:11:43,700 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:11:48,716 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:11:53,716 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:11:58,716 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:12:03,716 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:12:08,716 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:12:13,716 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:12:18,716 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:12:23,716 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:12:28,716 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:12:33,716 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:12:38,730 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:12:43,730 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:12:48,746 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:12:53,746 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:12:58,746 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:13:03,746 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:13:08,746 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:13:13,746 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:13:18,746 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:13:23,746 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:13:28,746 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:13:33,746 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:13:38,746 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:13:43,746 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:13:48,746 DEBUG : ecmanager:90 - Heartbeat __**__ threads=3 
+2011-07-01 20:13:58,216 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:13:58,216 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:13:58,216 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:13:58,263 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:13:58,263 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:13:58,263 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:13:58,263 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:13:58,513 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:13:58,513 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:13:58,513 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:13:58,513 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:13:58,513 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:48
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:47
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         616
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:13:50 
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:13:58,716 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:14:03,716 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:14:08,716 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:14:10,591 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[38] name[1061] type[h323]
+
+2011-07-01 20:14:10,591 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:14:10,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[38] name[test2] type[h323]
+
+2011-07-01 20:14:10,871 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:14:15,871 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:14:20,888 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:14:25,888 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:14:30,888 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:14:32,903 DEBUG : ecmanager:90 - Message from 56.2.6.53: cleared: call[38]
+
+2011-07-01 20:14:33,059 DEBUG : ecmanager:90 - Message from 56.2.6.53: dialstring[ADDRESS:1061 NAME:test2]
+
+2011-07-01 20:14:33,059 DEBUG : ecmanager:90 - Message from 56.2.6.53: ended: call[38]
+
+2011-07-01 20:14:33,059 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:14:38,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:14:43,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:14:48,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:14:53,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:14:58,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:15:03,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:15:08,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:15:13,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:15:18,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:15:23,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:15:28,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:15:33,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:15:38,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:15:43,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:15:48,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:15:53,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:15:58,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:16:03,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:16:08,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:16:13,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:16:18,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:16:23,075 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:16:28,091 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:16:33,091 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:16:38,091 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:16:43,091 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:16:48,105 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:16:53,105 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:16:58,105 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:17:03,105 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:17:08,105 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:17:13,105 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:17:18,105 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:17:23,105 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:17:28,105 DEBUG : ecmanager:90 - Heartbeat __**__ threads=3 
+2011-07-01 20:17:31,434 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:17:31,434 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:17:31,434 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:17:31,466 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:17:31,466 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:17:31,466 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:17:31,466 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:48
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:47
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         616
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:17:23 
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:17:31,871 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:17:36,871 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:17:41,871 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:17:43,763 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[36] name[test2] type[h323]
+
+2011-07-01 20:17:43,763 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:17:48,763 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:17:53,763 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:17:58,763 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:18:03,763 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:18:08,778 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:18:11,184 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[36] name[1061] type[h323]
+
+2011-07-01 20:18:11,184 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:18:13,075 DEBUG : ecmanager:90 - Message from 56.2.6.53: cleared: call[36]
+
+2011-07-01 20:18:13,230 DEBUG : ecmanager:90 - Message from 56.2.6.53: dialstring[ADDRESS:1061 NAME:test2]
+
+2011-07-01 20:18:13,230 DEBUG : ecmanager:90 - Message from 56.2.6.53: ended: call[36]
+
+2011-07-01 20:18:13,230 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:18:18,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:18:23,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:18:28,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:18:33,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:18:38,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:18:43,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:18:48,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:18:53,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:18:58,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:19:03,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:19:08,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:19:13,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:19:18,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:19:23,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:19:28,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:19:33,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:19:38,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:19:43,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:19:48,230 DEBUG : ecmanager:90 - Heartbeat __**__ threads=3 
+2011-07-01 20:19:55,293 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:19:55,293 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:19:55,293 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:19:55,371 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:19:55,371 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:19:55,371 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:19:55,371 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:48
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:47
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         616
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:19:47 
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:19:56,043 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:20:01,043 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:20:06,043 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:20:11,043 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:20:16,043 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:20:21,043 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:20:26,043 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:20:31,043 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:20:31,809 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[37] name[test2] type[h323]
+
+2011-07-01 20:20:31,809 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:20:36,809 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:20:41,809 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:20:44,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[37] name[1061] type[h323]
+
+2011-07-01 20:20:44,043 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:20:46,091 DEBUG : ecmanager:90 - Message from 56.2.6.53: cleared: call[37]
+
+2011-07-01 20:20:46,246 DEBUG : ecmanager:90 - Message from 56.2.6.53: dialstring[ADDRESS:1061 NAME:test2]
+
+2011-07-01 20:20:46,246 DEBUG : ecmanager:90 - Message from 56.2.6.53: ended: call[37]
+
+2011-07-01 20:20:46,246 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:20:51,246 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:20:56,246 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:21:01,263 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:21:06,263 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:21:11,263 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:21:16,278 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:21:21,278 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:21:26,278 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:21:31,278 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:21:36,278 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:21:41,278 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:21:46,278 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:21:51,278 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:21:56,278 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:22:01,278 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:22:06,278 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:22:37,621 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:22:37,621 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:22:37,638 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:22:37,668 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:22:37,668 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:22:37,668 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:22:37,668 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:48
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:47
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         616
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:22:29 
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:22:38,043 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:22:43,043 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:22:48,043 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:22:53,043 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:22:54,793 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[39] name[test2] type[h323]
+
+2011-07-01 20:22:54,793 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:22:59,793 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:23:04,793 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:23:08,138 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[39] name[1061] type[h323]
+
+2011-07-01 20:23:08,153 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:23:10,200 DEBUG : ecmanager:90 - Message from 56.2.6.53: cleared: call[39]
+
+2011-07-01 20:23:10,418 DEBUG : ecmanager:90 - Message from 56.2.6.53: dialstring[ADDRESS:1061 NAME:test2]
+
+2011-07-01 20:23:10,418 DEBUG : ecmanager:90 - Message from 56.2.6.53: ended: call[39]
+
+2011-07-01 20:23:10,418 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:23:15,418 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:23:20,434 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:29:24,088 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:29:24,197 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:29:24,197 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:29:24,259 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:29:24,259 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:29:24,259 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:29:24,259 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:48
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:47
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         616
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:29:23 
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:29:24,697 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:29:29,697 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:29:34,713 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:29:39,713 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:29:44,713 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:29:49,713 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:30:21,665 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:30:21,680 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:30:21,680 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:30:21,727 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:30:21,727 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:30:21,727 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:30:21,727 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:48
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:47
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         616
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:30:20 
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:30:22,118 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:30:27,118 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:31:44,572 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:31:44,572 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:31:44,572 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:31:44,618 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:31:44,618 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:31:44,618 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:31:44,618 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:48
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:47
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         616
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:31:43 
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:31:45,040 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:31:50,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:31:55,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:32:00,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:32:05,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 
+2011-07-01 20:32:55,352 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:32:55,352 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:32:55,352 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:32:55,384 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:32:55,384 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:32:55,384 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:32:55,384 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:48
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:47
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         616
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:32:54 
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:32:55,822 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:33:00,822 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:33:05,838 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:33:10,838 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:33:15,838 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:33:20,838 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:33:25,838 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:33:30,838 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:33:35,838 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:33:40,838 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:33:45,838 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:33:50,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:33:55,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:34:00,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:34:05,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:34:10,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:34:15,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:34:20,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:34:25,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:34:30,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:34:35,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:34:40,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:34:45,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:34:50,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:34:55,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:35:00,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:35:05,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:35:10,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:35:15,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:35:20,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:35:25,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:35:30,868 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:35:35,868 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:35:40,868 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:35:45,868 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:35:50,868 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:35:55,868 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:36:00,868 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:36:05,884 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:36:10,884 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:36:15,884 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:36:20,884 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:36:25,884 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:36:30,884 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:36:35,884 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:36:40,884 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:36:45,884 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:36:50,884 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:36:55,884 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:37:00,884 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:37:05,884 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:37:10,884 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:37:15,884 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:37:29,430 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:37:29,430 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:37:29,430 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:37:29,477 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:37:29,477 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:37:29,477 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:37:29,477 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:48
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:47
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         616
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:37:28 
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:37:29,930 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:37:34,930 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:37:39,930 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:37:44,930 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:37:49,930 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:37:52,852 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[38] name[test2] type[h323]
+
+2011-07-01 20:37:52,852 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:37:57,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:38:02,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:38:04,025 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[38] name[1061] type[h323]
+
+2011-07-01 20:38:04,025 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:38:06,088 DEBUG : ecmanager:90 - Message from 56.2.6.53: cleared: call[38]
+
+2011-07-01 20:38:06,243 DEBUG : ecmanager:90 - Message from 56.2.6.53: dialstring[ADDRESS:1061 NAME:test2]
+
+2011-07-01 20:38:06,243 DEBUG : ecmanager:90 - Message from 56.2.6.53: ended: call[38]
+
+2011-07-01 20:38:06,243 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:38:11,243 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:38:16,259 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:38:21,275 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:38:26,275 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:38:31,275 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:38:36,275 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:38:41,275 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:38:46,275 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:38:51,275 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:38:56,275 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:39:01,275 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:39:06,275 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:39:11,275 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:39:16,275 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:39:21,290 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:39:26,290 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:39:31,290 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:39:36,290 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:39:41,290 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:39:46,290 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:39:51,290 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:39:56,290 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:40:01,290 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:41:45,525 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:41:45,525 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:41:45,525 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:41:45,572 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:41:45,572 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:41:45,572 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:41:45,572 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:48
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:47
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         616
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:41:44 
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:41:45,977 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:41:50,977 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:41:55,977 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:42:00,977 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:42:05,977 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:42:10,977 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:42:15,977 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:42:34,384 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:42:34,384 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:42:34,384 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:42:34,430 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:42:34,430 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:42:34,430 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:42:34,430 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:48
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:47
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         616
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:42:33 
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:42:35,165 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:42:40,165 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:42:45,180 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:42:50,180 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:42:53,525 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[36] name[test2] type[h323]
+
+2011-07-01 20:42:53,525 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:42:58,525 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:43:00,822 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[36] name[1061] type[h323]
+
+2011-07-01 20:43:00,822 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:43:02,852 DEBUG : ecmanager:90 - Message from 56.2.6.53: cleared: call[36]
+
+2011-07-01 20:43:02,993 DEBUG : ecmanager:90 - Message from 56.2.6.53: dialstring[ADDRESS:1061 NAME:test2]
+
+2011-07-01 20:43:02,993 DEBUG : ecmanager:90 - Message from 56.2.6.53: ended: call[36]
+
+2011-07-01 20:43:02,993 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:43:07,993 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:43:12,993 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:43:18,009 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:43:23,009 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:43:28,009 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:43:33,009 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:43:38,009 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:43:43,009 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:43:48,025 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:43:53,025 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:43:58,025 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:44:03,025 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:44:08,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:44:13,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:44:18,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:44:23,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:44:28,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:44:33,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:44:38,055 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:44:43,055 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:44:48,055 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:44:53,055 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:44:58,055 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:45:03,055 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:45:08,072 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:45:13,072 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:45:18,072 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:45:23,072 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:45:28,072 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:45:33,072 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:45:38,088 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:45:43,088 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:45:48,088 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:45:53,088 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:45:58,088 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:46:03,088 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:46:08,102 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:46:13,102 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:46:18,102 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:46:23,102 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:46:28,102 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:46:33,102 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:46:38,102 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:46:43,118 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:46:48,118 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:46:53,118 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:46:58,118 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:47:03,118 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:47:08,118 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:47:13,134 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:47:18,134 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:47:23,134 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:47:28,134 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:47:33,134 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:47:38,134 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:47:43,150 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:47:48,150 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:47:53,150 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:47:58,150 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:48:03,165 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:48:08,165 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:48:13,165 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:48:18,165 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:48:23,165 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:48:28,180 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:48:33,180 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:48:38,180 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:48:43,180 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:48:48,180 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:48:53,180 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:50:46,822 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:50:46,822 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:50:46,838 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:50:46,868 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:50:46,868 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:50:46,868 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:50:46,884 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:48
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:47
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         616
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:50:45 
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:50:47,290 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:50:52,305 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:50:57,305 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:51:01,477 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[37] name[1061] type[h323]
+
+2011-07-01 20:51:01,477 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:51:01,634 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[37] name[test2] type[h323]
+
+2011-07-01 20:51:01,634 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:51:06,634 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:51:11,634 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:51:16,634 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:51:21,650 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:51:26,650 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:51:31,650 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:51:34,243 DEBUG : ecmanager:90 - Message from 56.2.6.53: cleared: call[37]
+
+2011-07-01 20:51:34,463 DEBUG : ecmanager:90 - Message from 56.2.6.53: dialstring[ADDRESS:1061 NAME:test2]
+
+2011-07-01 20:51:34,463 DEBUG : ecmanager:90 - Message from 56.2.6.53: ended: call[37]
+
+2011-07-01 20:51:34,463 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:51:39,463 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:51:44,463 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:51:49,477 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:51:54,477 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:51:59,477 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:52:04,477 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:52:09,477 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:52:14,477 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:52:19,493 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:52:20,165 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[39] name[test2] type[h323]
+
+2011-07-01 20:52:20,165 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:52:25,165 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:52:30,165 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:52:35,165 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:52:40,165 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:52:44,384 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[39] name[1061] type[h323]
+
+2011-07-01 20:52:44,384 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:52:46,852 DEBUG : ecmanager:90 - Message from 56.2.6.53: cs: call[39] chan[0] dialstr[1061] state[RINGING]
+
+2011-07-01 20:52:46,993 DEBUG : ecmanager:90 - Message from 56.2.6.53: cs: call[39] chan[0] dialstr[1061] state[COMPLETE]
+
+2011-07-01 20:52:48,947 DEBUG : ecmanager:90 - Message from 56.2.6.53: active: call[39] speed[256]
+
+2011-07-01 20:52:48,947 DEBUG : ecmanager:90 - Status is now: busy
+2011-07-01 20:52:53,963 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- busy
+2011-07-01 20:52:56,352 DEBUG : ecmanager:90 - Message from 56.2.6.53: cleared: call[39]
+
+2011-07-01 20:52:56,509 DEBUG : ecmanager:90 - Message from 56.2.6.53: dialstring[ADDRESS:1061 NAME:test2]
+
+2011-07-01 20:52:57,852 DEBUG : ecmanager:90 - Message from 56.2.6.53: ended: call[39]
+
+2011-07-01 20:52:57,852 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:53:02,852 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:53:07,868 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:53:12,868 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:53:17,868 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:53:38,759 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:53:38,759 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:53:38,775 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:53:38,805 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:53:38,805 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:53:38,805 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:53:38,805 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:11
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:10
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         617
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:53:36 
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:53:39,227 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:53:44,227 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:53:46,338 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[38] name[test2] type[h323]
+
+2011-07-01 20:53:46,352 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:53:51,352 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:53:56,352 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:54:01,368 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:54:06,368 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:54:11,368 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:54:16,368 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:54:16,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[38] name[1061] type[h323]
+
+2011-07-01 20:54:16,743 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:54:19,305 DEBUG : ecmanager:90 - Message from 56.2.6.53: cleared: call[38]
+
+2011-07-01 20:54:19,493 DEBUG : ecmanager:90 - Message from 56.2.6.53: dialstring[ADDRESS:1061 NAME:test2]
+
+2011-07-01 20:54:19,493 DEBUG : ecmanager:90 - Message from 56.2.6.53: ended: call[38]
+
+2011-07-01 20:54:19,493 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:54:24,493 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:54:29,493 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:54:34,493 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:54:39,493 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:54:44,493 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:54:49,493 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:54:54,493 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:54:59,493 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:55:04,493 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:55:09,493 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:55:14,493 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:55:24,150 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:55:24,150 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:55:24,150 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:55:24,197 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:55:24,197 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:55:24,197 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:55:24,197 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:11
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:10
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         617
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:55:22 
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:55:24,602 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:55:29,602 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:55:32,415 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[36] name[1061] type[h323]
+
+2011-07-01 20:55:32,415 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:55:32,602 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[36] name[test2] type[h323]
+
+2011-07-01 20:55:32,602 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:55:37,618 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:55:40,790 DEBUG : ecmanager:90 - Message from 56.2.6.53: cleared: call[36]
+
+2011-07-01 20:55:41,009 DEBUG : ecmanager:90 - Message from 56.2.6.53: dialstring[ADDRESS:1061 NAME:test2]
+
+2011-07-01 20:55:41,009 DEBUG : ecmanager:90 - Message from 56.2.6.53: ended: call[36]
+
+2011-07-01 20:55:41,009 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:55:46,025 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:55:51,025 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:55:56,025 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:56:01,025 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:56:06,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:56:11,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:56:16,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:56:21,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:56:26,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:56:31,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:56:36,040 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:56:54,352 WARNING : ecmanager:92 - Starting Easy Control Manager
+2011-07-01 20:56:54,352 DEBUG : ecmanager:90 - Version: 0.01 - OS: nt - 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+2011-07-01 20:56:54,352 DEBUG : ecmanager:90 - Starting API connection to codec 56.2.6.53 
+2011-07-01 20:56:54,400 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:56:54,400 DEBUG : ecmanager:90 - Message from 56.2.6.53: callstate register
+
+2011-07-01 20:56:54,400 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:56:54,400 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: Hi, my name is :     LTCL RPI
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: Here is what I know about myself:
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: Model:               HDX 4000 HD
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: Serial Number:       8208360A1BECPH
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: Software Version:    Release - 3.0.1-10628
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: Build Information:   Gamma_Integration
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: Time In Last Call:   00:00:11
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: 
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: -> callstate register
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Time In Calls: 00:00:10
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: callinfo all
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: Total Calls:         617
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNTP Time Service:   Manual oosync 0.0.0.0
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: Local Time is:        Fri, 01 Jul 2011 20:56:52 
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: Network Interface:   NONE
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: IP Video Number:     56.2.6.53
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: Link-Local Address:  fe80::2e0:dbff:fe0a:1bec/64
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: ISDN Video Number:   34.
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: H323 Enabled:        True
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: H320 Enabled:        False
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: HTTP Enabled:        True
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: SNMP Enabled:        True
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: info: event/notification already active:callstate
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Message from 56.2.6.53: system is not in a call
+
+2011-07-01 20:56:54,743 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:56:59,743 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:57:04,743 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:57:07,243 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[37] name[test2] type[h323]
+
+2011-07-01 20:57:07,243 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:57:12,243 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:57:17,243 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:57:22,259 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:57:27,259 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:57:32,275 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:57:37,275 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- ringing
+2011-07-01 20:57:38,227 DEBUG : ecmanager:90 - Message from 56.2.6.53: incoming: call[37] name[1061] type[h323]
+
+2011-07-01 20:57:38,227 DEBUG : ecmanager:90 - Status is now: ringing
+2011-07-01 20:57:39,852 DEBUG : ecmanager:90 - Message from 56.2.6.53: cleared: call[37]
+
+2011-07-01 20:57:39,993 DEBUG : ecmanager:90 - Message from 56.2.6.53: dialstring[ADDRESS:1061 NAME:test2]
+
+2011-07-01 20:57:39,993 DEBUG : ecmanager:90 - Message from 56.2.6.53: ended: call[37]
+
+2011-07-01 20:57:39,993 DEBUG : ecmanager:90 - Status is now: idle
+2011-07-01 20:57:44,993 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:57:49,993 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle
+2011-07-01 20:57:54,993 DEBUG : ecmanager:90 - Heartbeat __**__ threads=15 -- idle

@@ -1,0 +1,801 @@
+[21/Jul/2011:16:13:00] ENGINE Listening for SIGTERM.
+[21/Jul/2011:16:13:00] ENGINE Bus STARTING
+[21/Jul/2011:16:13:00] ENGINE Started monitor thread '_TimeoutMonitor'.
+[21/Jul/2011:16:13:00] ENGINE Serving on 10.0.0.5:8080
+[21/Jul/2011:16:13:00] ENGINE Bus STARTED
+[21/Jul/2011:16:14:34] ENGINE Listening for SIGTERM.
+[21/Jul/2011:16:14:34] ENGINE Bus STARTING
+[21/Jul/2011:16:14:34] ENGINE Started monitor thread '_TimeoutMonitor'.
+[21/Jul/2011:16:14:34] ENGINE Serving on 10.0.0.5:8080
+[21/Jul/2011:16:14:34] ENGINE Bus STARTED
+[21/Jul/2011:16:15:37] ENGINE Listening for SIGTERM.
+[21/Jul/2011:16:15:37] ENGINE Bus STARTING
+[21/Jul/2011:16:15:37] ENGINE Started monitor thread '_TimeoutMonitor'.
+[21/Jul/2011:16:15:38] ENGINE Serving on 10.0.0.5:8080
+[21/Jul/2011:16:15:38] ENGINE Bus STARTED
+[21/Jul/2011:16:40:12] ENGINE Listening for SIGTERM.
+[21/Jul/2011:16:40:12] ENGINE Bus STARTING
+[21/Jul/2011:16:40:12] ENGINE Started monitor thread '_TimeoutMonitor'.
+[21/Jul/2011:16:40:13] ENGINE Serving on 10.0.0.5:8080
+[21/Jul/2011:16:40:13] ENGINE Bus STARTED
+[21/Jul/2011:16:42:41] ENGINE Listening for SIGTERM.
+[21/Jul/2011:16:42:41] ENGINE Bus STARTING
+[21/Jul/2011:16:42:41] ENGINE Started monitor thread '_TimeoutMonitor'.
+[21/Jul/2011:16:42:42] ENGINE Serving on 10.0.1.165:8080
+[21/Jul/2011:16:42:42] ENGINE Bus STARTED
+[21/Jul/2011:16:43:20] ENGINE Listening for SIGTERM.
+[21/Jul/2011:16:43:20] ENGINE Bus STARTING
+[21/Jul/2011:16:43:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[21/Jul/2011:16:43:26] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x01B94B10>>
+Traceback (most recent call last):
+  File "C:\Python26\lib\site-packages\cherrypy\process\wspbus.py", line 179, in publish
+    output.append(listener(*args, **kwargs))
+  File "C:\Python26\lib\site-packages\cherrypy\_cpserver.py", line 141, in start
+    ServerAdapter.start(self)
+  File "C:\Python26\lib\site-packages\cherrypy\process\servers.py", line 167, in start
+    wait_for_free_port(*self.bind_addr)
+  File "C:\Python26\lib\site-packages\cherrypy\process\servers.py", line 403, in wait_for_free_port
+    raise IOError("Port %r not free on %r" % (port, host))
+IOError: Port 8080 not free on '10.0.1.165'
+
+[21/Jul/2011:16:43:26] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "C:\Python26\lib\site-packages\cherrypy\process\wspbus.py", line 216, in start
+    self.publish('start')
+  File "C:\Python26\lib\site-packages\cherrypy\process\wspbus.py", line 196, in publish
+    raise exc
+ChannelFailures: IOError("Port 8080 not free on '10.0.1.165'",)
+
+[21/Jul/2011:16:43:26] ENGINE Bus STOPPING
+[21/Jul/2011:16:43:26] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('10.0.1.165', 8080)) already shut down
+[21/Jul/2011:16:43:26] ENGINE Stopped thread '_TimeoutMonitor'.
+[21/Jul/2011:16:43:26] ENGINE Bus STOPPED
+[21/Jul/2011:16:43:26] ENGINE Bus EXITING
+[21/Jul/2011:16:43:26] ENGINE Bus EXITED
+[21/Jul/2011:17:30:20] ENGINE Listening for SIGTERM.
+[21/Jul/2011:17:30:20] ENGINE Bus STARTING
+[21/Jul/2011:17:30:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[21/Jul/2011:17:30:20] ENGINE Serving on 10.0.1.165:8080
+[21/Jul/2011:17:30:20] ENGINE Bus STARTED
+[21/Jul/2011:19:47:32] ENGINE Listening for SIGTERM.
+[21/Jul/2011:19:47:32] ENGINE Bus STARTING
+[21/Jul/2011:19:47:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[21/Jul/2011:19:47:32] ENGINE Serving on 10.0.1.165:8080
+[21/Jul/2011:19:47:32] ENGINE Bus STARTED
+[21/Jul/2011:19:51:51] ENGINE Listening for SIGTERM.
+[21/Jul/2011:19:51:51] ENGINE Bus STARTING
+[21/Jul/2011:19:51:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[21/Jul/2011:19:51:51] ENGINE Serving on 10.0.1.165:8080
+[21/Jul/2011:19:51:51] ENGINE Bus STARTED
+[10/Aug/2011:11:08:07] ENGINE Listening for SIGTERM.
+[10/Aug/2011:11:08:07] ENGINE Bus STARTING
+[10/Aug/2011:11:08:07] ENGINE Started monitor thread '_TimeoutMonitor'.
+[10/Aug/2011:11:08:08] ENGINE Serving on 10.0.0.5:8080
+[10/Aug/2011:11:08:08] ENGINE Bus STARTED
+[10/Aug/2011:11:09:12] HTTP Traceback (most recent call last):
+  File "C:\Python26\lib\site-packages\cherrypy\_cprequest.py", line 645, in respond
+    response.body = self.handler()
+  File "C:\Python26\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python26\lib\site-packages\cherrypy\_cpdispatch.py", line 29, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Users\Martelo\Desktop\EasyControlManager\src\WebServer.py", line 421, in tvonoff
+    s.connect((host, port))
+  File "<string>", line 1, in connect
+error: [Errno 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+
+[10/Aug/2011:11:09:32] HTTP Traceback (most recent call last):
+  File "C:\Python26\lib\site-packages\cherrypy\_cprequest.py", line 645, in respond
+    response.body = self.handler()
+  File "C:\Python26\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python26\lib\site-packages\cherrypy\_cpdispatch.py", line 29, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Users\Martelo\Desktop\EasyControlManager\src\WebServer.py", line 421, in tvonoff
+    s.connect((host, port))
+  File "<string>", line 1, in connect
+error: [Errno 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+
+[10/Aug/2011:11:29:50] ENGINE Listening for SIGTERM.
+[10/Aug/2011:11:29:50] ENGINE Bus STARTING
+[10/Aug/2011:11:29:50] ENGINE Started monitor thread '_TimeoutMonitor'.
+[10/Aug/2011:11:29:51] ENGINE Serving on 10.0.0.5:8080
+[10/Aug/2011:11:29:51] ENGINE Bus STARTED
+[10/Aug/2011:14:02:33] ENGINE Listening for SIGTERM.
+[10/Aug/2011:14:02:33] ENGINE Bus STARTING
+[10/Aug/2011:14:02:33] ENGINE Started monitor thread '_TimeoutMonitor'.
+[10/Aug/2011:14:02:34] ENGINE Serving on 10.0.0.5:8080
+[10/Aug/2011:14:02:34] ENGINE Bus STARTED
+[10/Aug/2011:15:40:37] ENGINE Listening for SIGTERM.
+[10/Aug/2011:15:40:37] ENGINE Bus STARTING
+[10/Aug/2011:15:40:37] ENGINE Started monitor thread '_TimeoutMonitor'.
+[10/Aug/2011:15:40:37] ENGINE Serving on 10.0.0.5:8080
+[10/Aug/2011:15:40:37] ENGINE Bus STARTED
+[10/Aug/2011:17:20:52] ENGINE Listening for SIGTERM.
+[10/Aug/2011:17:20:52] ENGINE Bus STARTING
+[10/Aug/2011:17:20:52] ENGINE Started monitor thread '_TimeoutMonitor'.
+[10/Aug/2011:17:20:53] ENGINE Serving on 10.0.0.5:8080
+[10/Aug/2011:17:20:53] ENGINE Bus STARTED
+[10/Aug/2011:18:18:34] ENGINE Listening for SIGTERM.
+[10/Aug/2011:18:18:34] ENGINE Bus STARTING
+[10/Aug/2011:18:18:34] ENGINE Started monitor thread '_TimeoutMonitor'.
+[10/Aug/2011:18:18:34] ENGINE Serving on 10.0.0.5:8080
+[10/Aug/2011:18:18:34] ENGINE Bus STARTED
+[10/Aug/2011:18:19:44] ENGINE Listening for SIGTERM.
+[10/Aug/2011:18:19:44] ENGINE Bus STARTING
+[10/Aug/2011:18:19:44] ENGINE Started monitor thread '_TimeoutMonitor'.
+[10/Aug/2011:18:19:44] ENGINE Serving on 10.0.0.5:8080
+[10/Aug/2011:18:19:44] ENGINE Bus STARTED
+[10/Aug/2011:18:20:48] ENGINE Listening for SIGTERM.
+[10/Aug/2011:18:20:48] ENGINE Bus STARTING
+[10/Aug/2011:18:20:48] ENGINE Started monitor thread '_TimeoutMonitor'.
+[10/Aug/2011:18:20:49] ENGINE Serving on 10.0.0.5:8080
+[10/Aug/2011:18:20:49] ENGINE Bus STARTED
+[10/Aug/2011:18:23:55] ENGINE Listening for SIGTERM.
+[10/Aug/2011:18:23:55] ENGINE Bus STARTING
+[10/Aug/2011:18:23:55] ENGINE Started monitor thread '_TimeoutMonitor'.
+[10/Aug/2011:18:23:55] ENGINE Serving on 10.0.0.5:8080
+[10/Aug/2011:18:23:55] ENGINE Bus STARTED
+[11/Aug/2011:14:21:27] ENGINE Listening for SIGTERM.
+[11/Aug/2011:14:21:27] ENGINE Bus STARTING
+[11/Aug/2011:14:21:27] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Aug/2011:14:21:28] ENGINE Serving on 10.0.0.5:8080
+[11/Aug/2011:14:21:28] ENGINE Bus STARTED
+[11/Aug/2011:16:31:20] ENGINE Listening for SIGTERM.
+[11/Aug/2011:16:31:20] ENGINE Bus STARTING
+[11/Aug/2011:16:31:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Aug/2011:16:31:21] ENGINE Serving on 10.0.0.5:8080
+[11/Aug/2011:16:31:21] ENGINE Bus STARTED
+[17/Aug/2011:14:48:49] ENGINE Listening for SIGTERM.
+[17/Aug/2011:14:48:49] ENGINE Bus STARTING
+[17/Aug/2011:14:48:49] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Aug/2011:14:48:50] ENGINE Serving on 10.0.0.5:8080
+[17/Aug/2011:14:48:50] ENGINE Bus STARTED
+[17/Aug/2011:15:43:17] ENGINE Listening for SIGTERM.
+[17/Aug/2011:15:43:17] ENGINE Bus STARTING
+[17/Aug/2011:15:43:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Aug/2011:15:43:18] ENGINE Serving on 10.0.0.5:8080
+[17/Aug/2011:15:43:18] ENGINE Bus STARTED
+[17/Aug/2011:15:51:57] ENGINE Listening for SIGTERM.
+[17/Aug/2011:15:51:57] ENGINE Bus STARTING
+[17/Aug/2011:15:51:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Aug/2011:15:51:57] ENGINE Serving on 10.0.1.110:8080
+[17/Aug/2011:15:51:57] ENGINE Bus STARTED
+[17/Aug/2011:17:09:30] ENGINE Listening for SIGTERM.
+[17/Aug/2011:17:09:30] ENGINE Bus STARTING
+[17/Aug/2011:17:09:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Aug/2011:17:09:31] ENGINE Serving on 10.0.1.110:8080
+[17/Aug/2011:17:09:31] ENGINE Bus STARTED
+[17/Aug/2011:19:12:56] ENGINE Listening for SIGTERM.
+[17/Aug/2011:19:12:56] ENGINE Bus STARTING
+[17/Aug/2011:19:12:56] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Aug/2011:19:12:57] ENGINE Serving on 10.0.0.5:8080
+[17/Aug/2011:19:12:57] ENGINE Bus STARTED
+[17/Aug/2011:20:47:49] ENGINE Listening for SIGTERM.
+[17/Aug/2011:20:47:49] ENGINE Bus STARTING
+[17/Aug/2011:20:47:49] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Aug/2011:20:47:49] ENGINE Serving on 10.0.0.5:8080
+[17/Aug/2011:20:47:49] ENGINE Bus STARTED
+[17/Aug/2011:20:50:57] ENGINE Listening for SIGTERM.
+[17/Aug/2011:20:50:57] ENGINE Bus STARTING
+[17/Aug/2011:20:50:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Aug/2011:20:50:57] ENGINE Serving on 10.0.0.5:8080
+[17/Aug/2011:20:50:57] ENGINE Bus STARTED
+[18/Aug/2011:15:25:28] ENGINE Listening for SIGTERM.
+[18/Aug/2011:15:25:28] ENGINE Bus STARTING
+[18/Aug/2011:15:25:28] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Aug/2011:15:25:29] ENGINE Serving on 10.0.0.5:8080
+[18/Aug/2011:15:25:29] ENGINE Bus STARTED
+[18/Aug/2011:15:35:37] ENGINE Listening for SIGTERM.
+[18/Aug/2011:15:35:37] ENGINE Bus STARTING
+[18/Aug/2011:15:35:37] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Aug/2011:15:35:37] ENGINE Serving on 10.0.0.5:8080
+[18/Aug/2011:15:35:37] ENGINE Bus STARTED
+[18/Aug/2011:15:36:50] ENGINE Listening for SIGTERM.
+[18/Aug/2011:15:36:50] ENGINE Bus STARTING
+[18/Aug/2011:15:36:50] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Aug/2011:15:36:50] ENGINE Serving on 10.0.0.5:8080
+[18/Aug/2011:15:36:50] ENGINE Bus STARTED
+[18/Aug/2011:15:45:17] ENGINE Listening for SIGTERM.
+[18/Aug/2011:15:45:17] ENGINE Bus STARTING
+[18/Aug/2011:15:45:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Aug/2011:15:45:18] ENGINE Serving on 10.0.0.5:8080
+[18/Aug/2011:15:45:18] ENGINE Bus STARTED
+[18/Aug/2011:15:48:03] ENGINE Listening for SIGTERM.
+[18/Aug/2011:15:48:03] ENGINE Bus STARTING
+[18/Aug/2011:15:48:03] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Aug/2011:15:48:04] ENGINE Serving on 10.0.0.5:8080
+[18/Aug/2011:15:48:04] ENGINE Bus STARTED
+[18/Aug/2011:15:50:03] ENGINE Listening for SIGTERM.
+[18/Aug/2011:15:50:03] ENGINE Bus STARTING
+[18/Aug/2011:15:50:03] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Aug/2011:15:50:04] ENGINE Serving on 10.0.0.5:8080
+[18/Aug/2011:15:50:04] ENGINE Bus STARTED
+[22/Aug/2011:17:06:23] ENGINE Listening for SIGTERM.
+[22/Aug/2011:17:06:23] ENGINE Bus STARTING
+[22/Aug/2011:17:06:23] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:17:06:24] ENGINE Serving on 10.0.1.109:8080
+[22/Aug/2011:17:06:24] ENGINE Bus STARTED
+[22/Aug/2011:17:16:55] ENGINE Listening for SIGTERM.
+[22/Aug/2011:17:16:55] ENGINE Bus STARTING
+[22/Aug/2011:17:16:55] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:17:16:56] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:17:16:56] ENGINE Bus STARTED
+[22/Aug/2011:17:32:59] ENGINE Listening for SIGTERM.
+[22/Aug/2011:17:32:59] ENGINE Bus STARTING
+[22/Aug/2011:17:32:59] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:17:32:59] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:17:32:59] ENGINE Bus STARTED
+[22/Aug/2011:18:09:18] ENGINE Listening for SIGTERM.
+[22/Aug/2011:18:09:18] ENGINE Bus STARTING
+[22/Aug/2011:18:09:18] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:18:09:18] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:18:09:18] ENGINE Bus STARTED
+[22/Aug/2011:18:11:08] ENGINE Listening for SIGTERM.
+[22/Aug/2011:18:11:08] ENGINE Bus STARTING
+[22/Aug/2011:18:11:08] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:18:11:09] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:18:11:09] ENGINE Bus STARTED
+[22/Aug/2011:18:12:15] ENGINE Listening for SIGTERM.
+[22/Aug/2011:18:12:15] ENGINE Bus STARTING
+[22/Aug/2011:18:12:15] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:18:12:15] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:18:12:15] ENGINE Bus STARTED
+[22/Aug/2011:18:12:25] ENGINE Listening for SIGTERM.
+[22/Aug/2011:18:12:25] ENGINE Bus STARTING
+[22/Aug/2011:18:12:25] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:18:12:26] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:18:12:26] ENGINE Bus STARTED
+[22/Aug/2011:18:12:56] ENGINE Listening for SIGTERM.
+[22/Aug/2011:18:12:56] ENGINE Bus STARTING
+[22/Aug/2011:18:12:56] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:18:12:57] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:18:12:57] ENGINE Bus STARTED
+[22/Aug/2011:18:24:52] ENGINE Listening for SIGTERM.
+[22/Aug/2011:18:24:52] ENGINE Bus STARTING
+[22/Aug/2011:18:24:52] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:18:24:53] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:18:24:53] ENGINE Bus STARTED
+[22/Aug/2011:18:29:16] ENGINE Listening for SIGTERM.
+[22/Aug/2011:18:29:16] ENGINE Bus STARTING
+[22/Aug/2011:18:29:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:18:29:16] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:18:29:16] ENGINE Bus STARTED
+[22/Aug/2011:18:32:47] ENGINE Listening for SIGTERM.
+[22/Aug/2011:18:32:47] ENGINE Bus STARTING
+[22/Aug/2011:18:32:47] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:18:32:47] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:18:32:47] ENGINE Bus STARTED
+[22/Aug/2011:18:36:04] ENGINE Listening for SIGTERM.
+[22/Aug/2011:18:36:04] ENGINE Bus STARTING
+[22/Aug/2011:18:36:04] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:18:36:04] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:18:36:04] ENGINE Bus STARTED
+[22/Aug/2011:18:38:07] ENGINE Listening for SIGTERM.
+[22/Aug/2011:18:38:07] ENGINE Bus STARTING
+[22/Aug/2011:18:38:07] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:18:38:07] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:18:38:07] ENGINE Bus STARTED
+[22/Aug/2011:18:42:43] ENGINE Listening for SIGTERM.
+[22/Aug/2011:18:42:43] ENGINE Bus STARTING
+[22/Aug/2011:18:42:43] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:18:42:43] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:18:42:43] ENGINE Bus STARTED
+[22/Aug/2011:18:44:57] ENGINE Listening for SIGTERM.
+[22/Aug/2011:18:44:57] ENGINE Bus STARTING
+[22/Aug/2011:18:44:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:18:44:57] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:18:44:57] ENGINE Bus STARTED
+[22/Aug/2011:18:59:55] ENGINE Listening for SIGTERM.
+[22/Aug/2011:18:59:55] ENGINE Bus STARTING
+[22/Aug/2011:18:59:55] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:18:59:55] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:18:59:55] ENGINE Bus STARTED
+[22/Aug/2011:19:12:32] ENGINE Listening for SIGTERM.
+[22/Aug/2011:19:12:32] ENGINE Bus STARTING
+[22/Aug/2011:19:12:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:19:12:32] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:19:12:32] ENGINE Bus STARTED
+[22/Aug/2011:19:20:35] ENGINE Listening for SIGTERM.
+[22/Aug/2011:19:20:35] ENGINE Bus STARTING
+[22/Aug/2011:19:20:35] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:19:20:35] ENGINE Serving on 10.0.1.109:7676
+[22/Aug/2011:19:20:35] ENGINE Bus STARTED
+[22/Aug/2011:21:03:45] ENGINE Listening for SIGTERM.
+[22/Aug/2011:21:03:45] ENGINE Bus STARTING
+[22/Aug/2011:21:03:45] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:21:03:46] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "C:\Python26\lib\site-packages\cherrypy\process\servers.py", line 187, in _start_http_thread
+    self.httpserver.start()
+  File "C:\Python26\lib\site-packages\cherrypy\wsgiserver\__init__.py", line 1753, in start
+    raise socket.error(msg)
+error: No socket could be created
+
+[22/Aug/2011:21:03:46] ENGINE Bus STOPPING
+[22/Aug/2011:21:03:46] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('10.0.1.109', 7676)) already shut down
+[22/Aug/2011:21:03:46] ENGINE Stopped thread '_TimeoutMonitor'.
+[22/Aug/2011:21:03:46] ENGINE Bus STOPPED
+[22/Aug/2011:21:03:46] ENGINE Bus EXITING
+[22/Aug/2011:21:03:46] ENGINE Bus EXITED
+[22/Aug/2011:21:04:26] ENGINE Listening for SIGTERM.
+[22/Aug/2011:21:04:26] ENGINE Bus STARTING
+[22/Aug/2011:21:04:26] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:21:04:27] ENGINE Serving on 10.0.0.5:7676
+[22/Aug/2011:21:04:27] ENGINE Bus STARTED
+[22/Aug/2011:21:07:43] ENGINE Listening for SIGTERM.
+[22/Aug/2011:21:07:43] ENGINE Bus STARTING
+[22/Aug/2011:21:07:43] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:21:07:43] ENGINE Serving on 10.0.0.5:7676
+[22/Aug/2011:21:07:43] ENGINE Bus STARTED
+[22/Aug/2011:21:19:42] HTTP Traceback (most recent call last):
+  File "C:\Python26\lib\site-packages\cherrypy\_cprequest.py", line 645, in respond
+    response.body = self.handler()
+  File "C:\Python26\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python26\lib\site-packages\cherrypy\_cpdispatch.py", line 29, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Users\Martelo\Desktop\EasyControlManager\src\WebServer.py", line 436, in tvonoff
+    data = s.recv(1024)
+  File "<string>", line 1, in connect
+error: [Errno 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+
+[22/Aug/2011:21:28:17] ENGINE Listening for SIGTERM.
+[22/Aug/2011:21:28:17] ENGINE Bus STARTING
+[22/Aug/2011:21:28:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:21:28:17] ENGINE Serving on 10.0.0.5:7676
+[22/Aug/2011:21:28:17] ENGINE Bus STARTED
+[22/Aug/2011:21:28:22] ENGINE Listening for SIGTERM.
+[22/Aug/2011:21:28:22] ENGINE Bus STARTING
+[22/Aug/2011:21:28:22] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:21:28:23] ENGINE Serving on 10.0.0.5:7676
+[22/Aug/2011:21:28:23] ENGINE Bus STARTED
+[22/Aug/2011:21:31:52] ENGINE Listening for SIGTERM.
+[22/Aug/2011:21:31:52] ENGINE Bus STARTING
+[22/Aug/2011:21:31:52] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:21:31:52] ENGINE Serving on 10.0.0.5:7676
+[22/Aug/2011:21:31:52] ENGINE Bus STARTED
+[22/Aug/2011:21:37:22] ENGINE Listening for SIGTERM.
+[22/Aug/2011:21:37:22] ENGINE Bus STARTING
+[22/Aug/2011:21:37:22] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:21:37:22] ENGINE Serving on 10.0.0.5:7676
+[22/Aug/2011:21:37:22] ENGINE Bus STARTED
+[22/Aug/2011:21:55:37] ENGINE Listening for SIGTERM.
+[22/Aug/2011:21:55:37] ENGINE Bus STARTING
+[22/Aug/2011:21:55:37] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:21:55:37] ENGINE Serving on 10.0.0.5:7676
+[22/Aug/2011:21:55:37] ENGINE Bus STARTED
+[22/Aug/2011:21:55:53] ENGINE Listening for SIGTERM.
+[22/Aug/2011:21:55:53] ENGINE Bus STARTING
+[22/Aug/2011:21:55:53] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:21:55:53] ENGINE Serving on 10.0.0.5:7676
+[22/Aug/2011:21:55:53] ENGINE Bus STARTED
+[22/Aug/2011:21:58:32] ENGINE Listening for SIGTERM.
+[22/Aug/2011:21:58:32] ENGINE Bus STARTING
+[22/Aug/2011:21:58:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:21:58:33] ENGINE Serving on 10.0.0.5:7676
+[22/Aug/2011:21:58:33] ENGINE Bus STARTED
+[22/Aug/2011:22:03:10] ENGINE Listening for SIGTERM.
+[22/Aug/2011:22:03:10] ENGINE Bus STARTING
+[22/Aug/2011:22:03:10] ENGINE Started monitor thread '_TimeoutMonitor'.
+[22/Aug/2011:22:03:10] ENGINE Serving on 10.0.0.5:7676
+[22/Aug/2011:22:03:10] ENGINE Bus STARTED
+[23/Aug/2011:10:22:05] ENGINE Listening for SIGTERM.
+[23/Aug/2011:10:22:05] ENGINE Bus STARTING
+[23/Aug/2011:10:22:05] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:10:22:05] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:10:22:05] ENGINE Bus STARTED
+[23/Aug/2011:10:26:12] ENGINE Listening for SIGTERM.
+[23/Aug/2011:10:26:12] ENGINE Bus STARTING
+[23/Aug/2011:10:26:12] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:10:26:12] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:10:26:12] ENGINE Bus STARTED
+[23/Aug/2011:10:28:55] ENGINE Listening for SIGTERM.
+[23/Aug/2011:10:28:55] ENGINE Bus STARTING
+[23/Aug/2011:10:28:55] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:10:28:55] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:10:28:55] ENGINE Bus STARTED
+[23/Aug/2011:10:44:42] ENGINE Listening for SIGTERM.
+[23/Aug/2011:10:44:42] ENGINE Bus STARTING
+[23/Aug/2011:10:44:42] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:10:44:43] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:10:44:43] ENGINE Bus STARTED
+[23/Aug/2011:11:09:46] ENGINE Listening for SIGTERM.
+[23/Aug/2011:11:09:46] ENGINE Bus STARTING
+[23/Aug/2011:11:09:46] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:11:09:47] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:11:09:47] ENGINE Bus STARTED
+[23/Aug/2011:11:13:03] ENGINE Listening for SIGTERM.
+[23/Aug/2011:11:13:03] ENGINE Bus STARTING
+[23/Aug/2011:11:13:03] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:11:13:03] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:11:13:03] ENGINE Bus STARTED
+[23/Aug/2011:11:14:59] ENGINE Listening for SIGTERM.
+[23/Aug/2011:11:14:59] ENGINE Bus STARTING
+[23/Aug/2011:11:14:59] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:11:14:59] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:11:14:59] ENGINE Bus STARTED
+[23/Aug/2011:11:15:40] ENGINE Listening for SIGTERM.
+[23/Aug/2011:11:15:40] ENGINE Bus STARTING
+[23/Aug/2011:11:15:40] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:11:15:40] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:11:15:40] ENGINE Bus STARTED
+[23/Aug/2011:11:17:15] ENGINE Listening for SIGTERM.
+[23/Aug/2011:11:17:15] ENGINE Bus STARTING
+[23/Aug/2011:11:17:15] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:11:17:15] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:11:17:15] ENGINE Bus STARTED
+[23/Aug/2011:11:26:10] ENGINE Listening for SIGTERM.
+[23/Aug/2011:11:26:10] ENGINE Bus STARTING
+[23/Aug/2011:11:26:10] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:11:26:11] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:11:26:11] ENGINE Bus STARTED
+[23/Aug/2011:11:37:48] ENGINE Listening for SIGTERM.
+[23/Aug/2011:11:37:48] ENGINE Bus STARTING
+[23/Aug/2011:11:37:48] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:11:37:48] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:11:37:48] ENGINE Bus STARTED
+[23/Aug/2011:11:49:21] ENGINE Listening for SIGTERM.
+[23/Aug/2011:11:49:21] ENGINE Bus STARTING
+[23/Aug/2011:11:49:21] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:11:49:21] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:11:49:21] ENGINE Bus STARTED
+[23/Aug/2011:11:57:03] ENGINE Listening for SIGTERM.
+[23/Aug/2011:11:57:03] ENGINE Bus STARTING
+[23/Aug/2011:11:57:03] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:11:57:04] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:11:57:04] ENGINE Bus STARTED
+[23/Aug/2011:12:15:17] ENGINE Listening for SIGTERM.
+[23/Aug/2011:12:15:17] ENGINE Bus STARTING
+[23/Aug/2011:12:15:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:12:15:18] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:12:15:18] ENGINE Bus STARTED
+[23/Aug/2011:12:41:01] ENGINE Listening for SIGTERM.
+[23/Aug/2011:12:41:01] ENGINE Bus STARTING
+[23/Aug/2011:12:41:01] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:12:41:02] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:12:41:02] ENGINE Bus STARTED
+[23/Aug/2011:12:44:39] ENGINE Listening for SIGTERM.
+[23/Aug/2011:12:44:39] ENGINE Bus STARTING
+[23/Aug/2011:12:44:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:12:44:39] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:12:44:39] ENGINE Bus STARTED
+[23/Aug/2011:12:58:39] ENGINE Listening for SIGTERM.
+[23/Aug/2011:12:58:39] ENGINE Bus STARTING
+[23/Aug/2011:12:58:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:12:58:40] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:12:58:40] ENGINE Bus STARTED
+[23/Aug/2011:13:11:43] ENGINE Listening for SIGTERM.
+[23/Aug/2011:13:11:43] ENGINE Bus STARTING
+[23/Aug/2011:13:11:43] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:13:11:44] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:13:11:44] ENGINE Bus STARTED
+[23/Aug/2011:13:13:44] ENGINE Listening for SIGTERM.
+[23/Aug/2011:13:13:44] ENGINE Bus STARTING
+[23/Aug/2011:13:13:44] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:13:13:44] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:13:13:44] ENGINE Bus STARTED
+[23/Aug/2011:13:14:52] ENGINE Listening for SIGTERM.
+[23/Aug/2011:13:14:52] ENGINE Bus STARTING
+[23/Aug/2011:13:14:52] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:13:14:52] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:13:14:52] ENGINE Bus STARTED
+[23/Aug/2011:13:40:36] ENGINE Listening for SIGTERM.
+[23/Aug/2011:13:40:36] ENGINE Bus STARTING
+[23/Aug/2011:13:40:36] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:13:40:36] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:13:40:36] ENGINE Bus STARTED
+[23/Aug/2011:13:40:45] ENGINE Listening for SIGTERM.
+[23/Aug/2011:13:40:45] ENGINE Bus STARTING
+[23/Aug/2011:13:40:45] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:13:40:47] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:13:40:47] ENGINE Bus STARTED
+[23/Aug/2011:13:40:48] ENGINE Listening for SIGTERM.
+[23/Aug/2011:13:40:48] ENGINE Bus STARTING
+[23/Aug/2011:13:40:48] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:13:40:54] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x01EF7D50>>
+Traceback (most recent call last):
+  File "C:\Python26\lib\site-packages\cherrypy\process\wspbus.py", line 179, in publish
+    output.append(listener(*args, **kwargs))
+  File "C:\Python26\lib\site-packages\cherrypy\_cpserver.py", line 141, in start
+    ServerAdapter.start(self)
+  File "C:\Python26\lib\site-packages\cherrypy\process\servers.py", line 167, in start
+    wait_for_free_port(*self.bind_addr)
+  File "C:\Python26\lib\site-packages\cherrypy\process\servers.py", line 403, in wait_for_free_port
+    raise IOError("Port %r not free on %r" % (port, host))
+IOError: Port 7676 not free on '10.0.0.5'
+
+[23/Aug/2011:13:40:54] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "C:\Python26\lib\site-packages\cherrypy\process\wspbus.py", line 216, in start
+    self.publish('start')
+  File "C:\Python26\lib\site-packages\cherrypy\process\wspbus.py", line 196, in publish
+    raise exc
+ChannelFailures: IOError("Port 7676 not free on '10.0.0.5'",)
+
+[23/Aug/2011:13:40:54] ENGINE Bus STOPPING
+[23/Aug/2011:13:40:54] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('10.0.0.5', 7676)) already shut down
+[23/Aug/2011:13:40:54] ENGINE Stopped thread '_TimeoutMonitor'.
+[23/Aug/2011:13:40:54] ENGINE Bus STOPPED
+[23/Aug/2011:13:40:54] ENGINE Bus EXITING
+[23/Aug/2011:13:40:54] ENGINE Bus EXITED
+[23/Aug/2011:13:42:16] ENGINE Listening for SIGTERM.
+[23/Aug/2011:13:42:16] ENGINE Bus STARTING
+[23/Aug/2011:13:42:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:13:42:16] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:13:42:16] ENGINE Bus STARTED
+[23/Aug/2011:13:44:10] ENGINE Listening for SIGTERM.
+[23/Aug/2011:13:44:10] ENGINE Bus STARTING
+[23/Aug/2011:13:44:10] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:13:44:11] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:13:44:11] ENGINE Bus STARTED
+[23/Aug/2011:13:50:44] ENGINE Listening for SIGTERM.
+[23/Aug/2011:13:50:44] ENGINE Bus STARTING
+[23/Aug/2011:13:50:44] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:13:50:44] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:13:50:44] ENGINE Bus STARTED
+[23/Aug/2011:13:53:44] ENGINE Listening for SIGTERM.
+[23/Aug/2011:13:53:44] ENGINE Bus STARTING
+[23/Aug/2011:13:53:44] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:13:53:44] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:13:53:44] ENGINE Bus STARTED
+[23/Aug/2011:14:00:32] ENGINE Listening for SIGTERM.
+[23/Aug/2011:14:00:32] ENGINE Bus STARTING
+[23/Aug/2011:14:00:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:14:00:32] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:14:00:32] ENGINE Bus STARTED
+[23/Aug/2011:14:00:46] ENGINE Listening for SIGTERM.
+[23/Aug/2011:14:00:46] ENGINE Bus STARTING
+[23/Aug/2011:14:00:46] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:14:00:47] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:14:00:47] ENGINE Bus STARTED
+[23/Aug/2011:14:03:10] ENGINE Listening for SIGTERM.
+[23/Aug/2011:14:03:10] ENGINE Bus STARTING
+[23/Aug/2011:14:03:10] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:14:03:11] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:14:03:11] ENGINE Bus STARTED
+[23/Aug/2011:14:04:28] ENGINE Listening for SIGTERM.
+[23/Aug/2011:14:04:28] ENGINE Bus STARTING
+[23/Aug/2011:14:04:28] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:14:04:29] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:14:04:29] ENGINE Bus STARTED
+[23/Aug/2011:14:06:31] ENGINE Listening for SIGTERM.
+[23/Aug/2011:14:06:31] ENGINE Bus STARTING
+[23/Aug/2011:14:06:31] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:14:06:32] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:14:06:32] ENGINE Bus STARTED
+[23/Aug/2011:14:09:14] ENGINE Listening for SIGTERM.
+[23/Aug/2011:14:09:14] ENGINE Bus STARTING
+[23/Aug/2011:14:09:14] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:14:09:14] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:14:09:14] ENGINE Bus STARTED
+[23/Aug/2011:14:09:36] ENGINE Listening for SIGTERM.
+[23/Aug/2011:14:09:36] ENGINE Bus STARTING
+[23/Aug/2011:14:09:36] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:14:09:36] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:14:09:36] ENGINE Bus STARTED
+[23/Aug/2011:14:14:35] ENGINE Listening for SIGTERM.
+[23/Aug/2011:14:14:35] ENGINE Bus STARTING
+[23/Aug/2011:14:14:35] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:14:14:35] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:14:14:35] ENGINE Bus STARTED
+[23/Aug/2011:14:17:09] ENGINE Listening for SIGTERM.
+[23/Aug/2011:14:17:09] ENGINE Bus STARTING
+[23/Aug/2011:14:17:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:14:17:09] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:14:17:09] ENGINE Bus STARTED
+[23/Aug/2011:14:20:31] ENGINE Listening for SIGTERM.
+[23/Aug/2011:14:20:31] ENGINE Bus STARTING
+[23/Aug/2011:14:20:31] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:14:20:31] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:14:20:31] ENGINE Bus STARTED
+[23/Aug/2011:14:22:01] ENGINE Listening for SIGTERM.
+[23/Aug/2011:14:22:01] ENGINE Bus STARTING
+[23/Aug/2011:14:22:01] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:14:22:01] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:14:22:01] ENGINE Bus STARTED
+[23/Aug/2011:14:44:08] ENGINE Listening for SIGTERM.
+[23/Aug/2011:14:44:08] ENGINE Bus STARTING
+[23/Aug/2011:14:44:08] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:14:44:08] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:14:44:08] ENGINE Bus STARTED
+[23/Aug/2011:14:46:20] ENGINE Listening for SIGTERM.
+[23/Aug/2011:14:46:20] ENGINE Bus STARTING
+[23/Aug/2011:14:46:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:14:46:21] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:14:46:21] ENGINE Bus STARTED
+[23/Aug/2011:14:51:23] ENGINE Listening for SIGTERM.
+[23/Aug/2011:14:51:23] ENGINE Bus STARTING
+[23/Aug/2011:14:51:23] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:14:51:23] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:14:51:23] ENGINE Bus STARTED
+[23/Aug/2011:15:02:04] ENGINE Listening for SIGTERM.
+[23/Aug/2011:15:02:04] ENGINE Bus STARTING
+[23/Aug/2011:15:02:04] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:15:02:04] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:15:02:04] ENGINE Bus STARTED
+[23/Aug/2011:17:16:31] ENGINE Listening for SIGTERM.
+[23/Aug/2011:17:16:31] ENGINE Bus STARTING
+[23/Aug/2011:17:16:31] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:17:16:32] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:17:16:32] ENGINE Bus STARTED
+[23/Aug/2011:18:20:19] ENGINE Listening for SIGTERM.
+[23/Aug/2011:18:20:19] ENGINE Bus STARTING
+[23/Aug/2011:18:20:19] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:18:20:19] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:18:20:19] ENGINE Bus STARTED
+[23/Aug/2011:18:41:41] ENGINE Listening for SIGTERM.
+[23/Aug/2011:18:41:41] ENGINE Bus STARTING
+[23/Aug/2011:18:41:41] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:18:41:42] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:18:41:42] ENGINE Bus STARTED
+[23/Aug/2011:18:51:41] ENGINE Listening for SIGTERM.
+[23/Aug/2011:18:51:41] ENGINE Bus STARTING
+[23/Aug/2011:18:51:41] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:18:51:42] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:18:51:42] ENGINE Bus STARTED
+[23/Aug/2011:18:57:57] ENGINE Listening for SIGTERM.
+[23/Aug/2011:18:57:57] ENGINE Bus STARTING
+[23/Aug/2011:18:57:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:18:57:57] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:18:57:57] ENGINE Bus STARTED
+[23/Aug/2011:20:05:46] ENGINE Listening for SIGTERM.
+[23/Aug/2011:20:05:46] ENGINE Bus STARTING
+[23/Aug/2011:20:05:46] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:20:05:46] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:20:05:46] ENGINE Bus STARTED
+[23/Aug/2011:20:12:21] ENGINE Listening for SIGTERM.
+[23/Aug/2011:20:12:21] ENGINE Bus STARTING
+[23/Aug/2011:20:12:21] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:20:12:21] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:20:12:21] ENGINE Bus STARTED
+[23/Aug/2011:20:16:31] ENGINE Listening for SIGTERM.
+[23/Aug/2011:20:16:31] ENGINE Bus STARTING
+[23/Aug/2011:20:16:31] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:20:16:31] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:20:16:31] ENGINE Bus STARTED
+[23/Aug/2011:20:26:47] ENGINE Listening for SIGTERM.
+[23/Aug/2011:20:26:47] ENGINE Bus STARTING
+[23/Aug/2011:20:26:47] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:20:26:48] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:20:26:48] ENGINE Bus STARTED
+[23/Aug/2011:20:56:37] ENGINE Listening for SIGTERM.
+[23/Aug/2011:20:56:37] ENGINE Bus STARTING
+[23/Aug/2011:20:56:37] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:20:56:37] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:20:56:37] ENGINE Bus STARTED
+[23/Aug/2011:21:00:20] ENGINE Listening for SIGTERM.
+[23/Aug/2011:21:00:20] ENGINE Bus STARTING
+[23/Aug/2011:21:00:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[23/Aug/2011:21:00:20] ENGINE Serving on 10.0.0.5:7676
+[23/Aug/2011:21:00:20] ENGINE Bus STARTED
+[24/Aug/2011:10:20:09] ENGINE Listening for SIGTERM.
+[24/Aug/2011:10:20:09] ENGINE Bus STARTING
+[24/Aug/2011:10:20:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:10:20:10] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:10:20:10] ENGINE Bus STARTED
+[24/Aug/2011:10:41:15] ENGINE Listening for SIGTERM.
+[24/Aug/2011:10:41:15] ENGINE Bus STARTING
+[24/Aug/2011:10:41:15] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:10:41:15] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:10:41:15] ENGINE Bus STARTED
+[24/Aug/2011:11:19:48] ENGINE Listening for SIGTERM.
+[24/Aug/2011:11:19:48] ENGINE Bus STARTING
+[24/Aug/2011:11:19:48] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:11:19:48] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:11:19:48] ENGINE Bus STARTED
+[24/Aug/2011:11:31:46] ENGINE Listening for SIGTERM.
+[24/Aug/2011:11:31:46] ENGINE Bus STARTING
+[24/Aug/2011:11:31:46] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:11:31:46] ENGINE Listening for SIGTERM.
+[24/Aug/2011:11:31:46] ENGINE Bus STARTING
+[24/Aug/2011:11:31:46] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:11:31:46] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:11:31:46] ENGINE Bus STARTED
+[24/Aug/2011:11:31:49] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:11:31:49] ENGINE Bus STARTED
+[24/Aug/2011:11:32:11] ENGINE Listening for SIGTERM.
+[24/Aug/2011:11:32:11] ENGINE Bus STARTING
+[24/Aug/2011:11:32:11] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:11:32:11] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:11:32:11] ENGINE Bus STARTED
+[24/Aug/2011:11:33:55] ENGINE Listening for SIGTERM.
+[24/Aug/2011:11:33:55] ENGINE Bus STARTING
+[24/Aug/2011:11:33:55] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:11:33:55] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:11:33:55] ENGINE Bus STARTED
+[24/Aug/2011:11:34:37] ENGINE Listening for SIGTERM.
+[24/Aug/2011:11:34:37] ENGINE Bus STARTING
+[24/Aug/2011:11:34:37] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:11:34:37] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:11:34:37] ENGINE Bus STARTED
+[24/Aug/2011:11:35:32] ENGINE Listening for SIGTERM.
+[24/Aug/2011:11:35:32] ENGINE Bus STARTING
+[24/Aug/2011:11:35:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:11:35:32] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:11:35:32] ENGINE Bus STARTED
+[24/Aug/2011:11:36:29] ENGINE Listening for SIGTERM.
+[24/Aug/2011:11:36:29] ENGINE Bus STARTING
+[24/Aug/2011:11:36:29] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:11:36:29] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:11:36:29] ENGINE Bus STARTED
+[24/Aug/2011:11:39:11] ENGINE Listening for SIGTERM.
+[24/Aug/2011:11:39:11] ENGINE Bus STARTING
+[24/Aug/2011:11:39:11] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:11:39:11] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:11:39:11] ENGINE Bus STARTED
+[24/Aug/2011:11:50:43] ENGINE Listening for SIGTERM.
+[24/Aug/2011:11:50:43] ENGINE Bus STARTING
+[24/Aug/2011:11:50:43] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:11:50:43] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:11:50:43] ENGINE Bus STARTED
+[24/Aug/2011:12:43:30] ENGINE Listening for SIGTERM.
+[24/Aug/2011:12:43:30] ENGINE Bus STARTING
+[24/Aug/2011:12:43:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:12:43:30] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:12:43:30] ENGINE Bus STARTED
+[24/Aug/2011:13:33:30] ENGINE Listening for SIGTERM.
+[24/Aug/2011:13:33:30] ENGINE Bus STARTING
+[24/Aug/2011:13:33:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:13:33:31] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:13:33:31] ENGINE Bus STARTED
+[24/Aug/2011:15:18:42] ENGINE Listening for SIGTERM.
+[24/Aug/2011:15:18:42] ENGINE Bus STARTING
+[24/Aug/2011:15:18:42] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:15:18:42] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:15:18:42] ENGINE Bus STARTED
+[24/Aug/2011:15:22:32] ENGINE Listening for SIGTERM.
+[24/Aug/2011:15:22:32] ENGINE Bus STARTING
+[24/Aug/2011:15:22:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:15:22:33] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:15:22:33] ENGINE Bus STARTED
+[24/Aug/2011:15:49:44] ENGINE Listening for SIGTERM.
+[24/Aug/2011:15:49:44] ENGINE Bus STARTING
+[24/Aug/2011:15:49:44] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:15:49:44] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:15:49:44] ENGINE Bus STARTED
+[24/Aug/2011:21:55:53] ENGINE Listening for SIGTERM.
+[24/Aug/2011:21:55:53] ENGINE Bus STARTING
+[24/Aug/2011:21:55:53] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:21:55:53] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:21:55:53] ENGINE Bus STARTED
+[24/Aug/2011:21:59:03] ENGINE Listening for SIGTERM.
+[24/Aug/2011:21:59:03] ENGINE Bus STARTING
+[24/Aug/2011:21:59:03] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Aug/2011:21:59:03] ENGINE Serving on 10.0.0.5:7676
+[24/Aug/2011:21:59:03] ENGINE Bus STARTED
+[25/Aug/2011:10:06:34] ENGINE Listening for SIGTERM.
+[25/Aug/2011:10:06:34] ENGINE Bus STARTING
+[25/Aug/2011:10:06:34] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Aug/2011:10:06:35] ENGINE Serving on 10.0.0.5:7676
+[25/Aug/2011:10:06:35] ENGINE Bus STARTED
+[25/Aug/2011:10:15:17] ENGINE Listening for SIGTERM.
+[25/Aug/2011:10:15:17] ENGINE Bus STARTING
+[25/Aug/2011:10:15:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Aug/2011:10:15:18] ENGINE Serving on 10.0.0.5:7676
+[25/Aug/2011:10:15:18] ENGINE Bus STARTED
+[25/Aug/2011:10:15:32] ENGINE Listening for SIGTERM.
+[25/Aug/2011:10:15:32] ENGINE Bus STARTING
+[25/Aug/2011:10:15:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Aug/2011:10:15:33] ENGINE Serving on 10.0.0.5:7676
+[25/Aug/2011:10:15:33] ENGINE Bus STARTED
+[25/Aug/2011:14:41:31] ENGINE Listening for SIGTERM.
+[25/Aug/2011:14:41:31] ENGINE Bus STARTING
+[25/Aug/2011:14:41:31] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Aug/2011:14:41:32] ENGINE Serving on 10.0.0.5:7676
+[25/Aug/2011:14:41:32] ENGINE Bus STARTED
+[25/Aug/2011:20:14:41] ENGINE Listening for SIGTERM.
+[25/Aug/2011:20:14:41] ENGINE Bus STARTING
+[25/Aug/2011:20:14:41] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Aug/2011:20:14:42] ENGINE Serving on 10.0.0.5:7676
+[25/Aug/2011:20:14:42] ENGINE Bus STARTED
+[25/Aug/2011:20:16:56] ENGINE Listening for SIGTERM.
+[25/Aug/2011:20:16:56] ENGINE Bus STARTING
+[25/Aug/2011:20:16:56] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Aug/2011:20:16:56] ENGINE Serving on 10.0.0.5:7676
+[25/Aug/2011:20:16:56] ENGINE Bus STARTED
+[25/Aug/2011:21:03:02] ENGINE Listening for SIGTERM.
+[25/Aug/2011:21:03:02] ENGINE Bus STARTING
+[25/Aug/2011:21:03:02] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Aug/2011:21:03:02] ENGINE Serving on 10.0.0.5:7676
+[25/Aug/2011:21:03:02] ENGINE Bus STARTED

@@ -1,0 +1,481 @@
+        <!DOCTYPE html> 
+<html> 
+    <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,height=device-height,width=device-width">
+    <title>Easy Control</title> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b1/jquery.mobile-1.0b1.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.0b1/jquery.mobile-1.0b1.min.js"></script>
+    <script language="javascript" type="text/javascript">
+
+	var texto = "Estatus = ";
+	var request = false;
+	var request2 = false
+	var request3 = false
+	var request4 = false
+	var request5 = false
+	var request6 = false
+	var request7 = false
+	var request8 = false
+
+    getStatus();
+    setInterval(getStatus, 1000); 
+	
+	function Ajax()
+	{
+		try {
+			request = new XMLHttpRequest();
+		} catch (trymicrosoft) {
+			try {
+				request = new ActiveXObject("Msxml2.XMLHTTP");
+			} catch (othermicrosoft) {
+				try {
+					request = new ActiveXObject("Microsoft.XMLHTTP");
+				} catch (failed) {
+					request = false;
+				}
+			}
+		}
+		return request;
+	}
+
+	function getStatus() 
+	{
+		request = Ajax();
+		if (!request)
+			alert("Error initializing XMLHttpRequest!");
+			fecha = new Date()
+			tiempo = fecha.getTime()
+			request.open("POST", "status?tiempo="+tiempo, true);
+			request.onreadystatechange = updateStatus(request);
+			request.send(null);
+	}
+
+	function updateStatus(request) 
+	{
+		if (request.readyState == 4)
+        if (request.status == 200) {
+			resultado = request.responseText;
+            document.getElementById("status").innerHTML = resultado;
+			if (resultado=="busy") {
+				$.mobile.changePage("#incall");
+            }
+            if (resultado=="idle") {
+                if ($('.ui-page-active').attr('id')=="incall") {
+					$.mobile.changePage("#home");
+                }
+            }
+        }
+	}
+	
+	function answer() 
+	{
+		request = Ajax();
+		if (!request)
+			alert("Error initializing XMLHttpRequest!");
+			fecha = new Date()
+			tiempo = fecha.getTime()
+			request.open("POST", "answer?tiempo="+tiempo, true);
+			request.onreadystatechange = updateAnswer(request);
+			request.send(null);
+	}
+
+	function updateAnswer(request) {
+		if (request.readyState == 4)
+        if (request.status == 200) {
+			resultado = request.responseText;
+            document.getElementById("answer").innerHTML = resultado;
+		}
+	}   
+   
+	function call(mipeer) 
+	{
+		request = Ajax();
+		if (!request)
+			alert("Error initializing XMLHttpRequest!");
+			fecha = new Date()
+			tiempo = fecha.getTime()
+			request.open("POST", "call?peer="+mipeer+"&tiempo="+tiempo, true);
+			request.onreadystatechange = updateCall(request);
+			request.send(null);
+	}
+
+	function updateCall(request) 
+	{
+		if (request.readyState == 4)
+			if (request.status == 200) 
+			{
+				resultado = request.responseText;
+			}
+	}   
+   
+	function hangup() 
+	{
+		request = Ajax();
+		if (!request)
+			alert("Error initializing XMLHttpRequest!");
+			fecha = new Date()
+			tiempo = fecha.getTime()
+			request.open("POST", "hangup?tiempo="+tiempo, true);
+			request.onreadystatechange = updateHangup(request);
+			request.send(null);
+	}
+
+	function updateHangup(request) 
+	{
+		if (request.readyState == 4)
+		if (request.status == 200)
+		{
+			resultado = request.responseText;
+        }
+   }
+
+	function tvmute() 
+	{
+		request = Ajax();
+		if (!request)
+			alert("Error initializing XMLHttpRequest!");
+			fecha = new Date()
+			tiempo = fecha.getTime()
+			request.open("POST", "tvmute?tiempo="+tiempo, true);
+			request.onreadystatechange = null;
+			request.send(null);
+	}
+
+	function tvonoff() 
+	{
+		request = Ajax();
+		if (!request)
+			alert("Error initializing XMLHttpRequest!");
+			fecha = new Date()
+			tiempo = fecha.getTime()
+			request.open("POST", "tvonoff?tiempo="+tiempo, true);
+			request.onreadystatechange = null;
+			request.send(null);
+	}
+
+
+	function vcbutton(accion) 
+	{
+		request = Ajax();
+		if (!request7)
+			alert("Error initializing XMLHttpRequest!");
+			fecha = new Date()
+			tiempo = fecha.getTime()
+			request.open("POST", "vcbutton?action="+accion+"&tiempo="+tiempo, true);
+			request.onreadystatechange = null;
+			request.send(null);
+	}
+
+	function mute() 
+	{
+		request = Ajax();
+		if (!request)
+			alert("Error initializing XMLHttpRequest!");
+			fecha = new Date()
+			tiempo = fecha.getTime()
+			request.open("POST", "mute?tiempo="+tiempo, true);
+			request.onreadystatechange = null;
+			request.send(null);
+	}
+
+
+function updateStatusTest() {
+    response ="Unknown";
+    document.getElementById("status").innerHTML = texto+response;
+}
+
+</script>
+</head> 
+<body onload="setTimeout(scrollTo, 0, 0, 1)"> 
+
+<!-- Start of first page -->
+<div data-role="page" id="home" data-theme="b">
+
+    <div data-role="header" data-position="fixed" data-icon="home">
+        <h1><div id="status">Home</div></h1>
+        <!-- <h1><div id="debug">debug</div></h1> -->
+        <a href="#bar" data-icon="gear" class="ui-btn-right">Options</a>
+    </div><!-- /header -->
+
+    <div data-role="content">    
+
+<ul data-role="listview" >
+    <li data-role="list-divider"><h2>My meetings 0.0062:</h2></li>
+    <li><a href="#local">Local meeting</a></li>
+    <li><a href="#directory">Call another site</a></li>
+    <li><a href="#home" rel="external" onclick="call('20201030');">Meeting room</a></li>
+    <li><a href="#home" rel="external" onclick="call('20200155');">Concierge desk</a></li>
+    <!-- <li><a href="#answer" data-rel="dialog">__ Answer call</a></li> -->
+    <li data-role="list-divider"><h2>My devices:</h2></li>
+    <li><a href="#monitor">Monitor</a></li>
+    <li><a href="#codec">__ VC endpoint</a></li>
+    <li><a href="#datashow">__ Datashow</a></li>
+</ul>
+   </div><!-- /content -->
+</div><!-- /page  first-->
+
+
+<div data-role="page" id="answer" data-theme="b">
+    
+        <div data-role="header" data-position="inline"  data-theme="b">
+            <h1>Ringing</h1>
+        </div>
+
+        <div data-role="content"  data-theme="b">
+            <h1>Answer incoming call?</h1>
+            <p>Select if you want to answer the incoming call</p>
+            <a href="#home" data-role="button" data-icon="check">Yes</a>       
+            <a href="#home" data-role="button" data-icon="delete">No</a>    
+        </div>
+
+    </div>
+
+<div data-role="page" id="dialpad" data-theme="b">
+    
+        <div data-role="header" data-position="inline"  data-theme="b">
+            <h1>Dialpad</h1>
+        </div>
+
+        <div data-role="content"  data-theme="b" align="center">
+            <div data-role="controlgroup" data-type="horizontal">
+            <a href="#" data-role="button">1</a>
+            <a href="#" data-role="button">2</a>
+            <a href="#" data-role="button">3</a>
+    </div>
+    <div data-role="controlgroup" data-type="horizontal">
+            <a href="#" data-role="button">4</a>
+            <a href="#" data-role="button">5</a>
+            <a href="#" data-role="button">6</a>
+    </div>
+
+            <div data-role="controlgroup" data-type="horizontal">
+            <a href="#" data-role="button">7</a>
+            <a href="#" data-role="button">8</a>
+            <a href="#" data-role="button">9</a>
+    </div>
+            <div data-role="controlgroup" data-type="horizontal">
+            <a href="#" data-role="button">*</a>
+            <a href="#" data-role="button">0</a>
+            <a href="#" data-role="button">#</a>
+    </div> 
+    </div>
+    </div>
+
+
+<div data-role="page" id="dialpad2" data-theme="b">
+    
+        <div data-role="header" data-position="inline"  data-theme="b">
+            <h1>Dialpad</h1>
+        </div>
+
+        <div data-role="content"  data-theme="b" align="center">
+            <div data-role="controlgroup" data-type="horizontal">
+            <a href="#" data-role="button">1</a>
+            <a href="#" data-role="button">2</a>
+            <a href="#" data-role="button">3</a>
+    </div>
+    <div data-role="controlgroup" data-type="horizontal">
+            <a href="#" data-role="button">4</a>
+            <a href="#" data-role="button">5</a>
+            <a href="#" data-role="button">6</a>
+    </div>
+
+            <div data-role="controlgroup" data-type="horizontal">
+            <a href="#" data-role="button">7</a>
+            <a href="#" data-role="button">8</a>
+            <a href="#" data-role="button">9</a>
+    </div>
+            <div data-role="controlgroup" data-type="horizontal">
+            <a href="#" data-role="button">*</a>
+            <a href="#" data-role="button">0</a>
+            <a href="#" data-role="button">#</a>
+    </div> 
+    </div>
+    </div>
+
+
+
+<!-- Start of directory page -->
+<div data-role="page" id="directory" data-theme="b">
+
+    <div data-role="header" data-position="inline">
+        <h1>Directory</h1>
+        <a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+    </div><!-- /header -->
+
+    <div data-role="content">    
+
+<ul data-role="listview" data-filter="true" data-filter-placeholder="Search room...">
+    <li data-role="list-divider">Argentina</li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">Sala 1</a></li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('6562100');">Fernando Caparelli</a></li>
+    <li data-role="list-divider">Brasil</li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">Sala 1</a></li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">Sala 2</a></li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">Sala Telepresencia</a></li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">Eduardo Ponce</a></li>
+    <li data-role="list-divider">Chile</li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">CV Sala 1</a></li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">CV Sala 2</a></li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">LT Sala 1</a></li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">LT Sala 2</a></li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">LT Sala Telepresencia</a></li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">Ingenieria Sala 1</a></li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">Ingenieria Sala 2</a></li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">Erik Torreiter</a></li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">Roberto Cholaky</a></li>
+    <li data-role="list-divider">Peru</li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">Sala 1</a></li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">Sala 2</a></li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">Carmen Abad</a></li>
+    <li data-role="list-divider">Venezuela</li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">Sala 1</a></li>
+    <li data-icon="grid"><a href="#home" rel="external" onclick="call('656253');">Jeanette</a></li>
+    </ul>
+</div><!-- /content -->
+</div><!-- /page directory-->
+
+<!-- Start of monitor page -->
+<div data-role="page" id="monitor" data-theme="b">
+
+    <div data-role="header" data-position="inline">
+        <h1>Device</h1>
+        <a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+    </div><!-- /header -->
+
+    <div data-role="content">    
+
+<ul data-role="listview" >
+    <li data-role="list-divider"><h2>My monitor:</h2></li>
+    <li data-icon="grid"><a href="#monitor" rel="external" onclick="tvonoff();">Turn on/off</a></li>
+    <li data-icon="grid"><a href="#monitor" rel="external" onclick="tvmute();">Mute/Unmute</a></li>
+    <li data-icon="grid"><a href="#bar">__ Volume Up</a></li>
+    <li data-icon="grid"><a href="#bar">__ Volume Down</a></li>
+    <li data-icon="grid"><a href="#bar">__ Change Input</a></li>
+</ul>
+
+ 
+    </div><!-- /content -->
+
+
+</div><!-- /page monitor-->
+
+
+<!-- Start of incall page -->
+<div data-role="page" id="incall" data-theme="b">
+
+    <div data-role="header" data-position="inline">
+        <h1>In Call</h1>
+        <a href="#dialpad2" data-icon="grid" class="ui-btn-right" data-rel="dialog">Dialpad</a>
+        <a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+    </div><!-- /header -->
+
+    <div data-role="content">    
+
+<ul data-role="listview" >
+    <li data-role="list-divider"><h2>My call:</h2></li>
+    <li data-icon="grid"><a href="#incall" rel="external" onclick="vcbutton('play');">Send Content</a></li>
+    <li data-icon="grid"><a href="#incall" rel="external" onclick="vcbutton('stop');">Stop Content</a></li>
+    <li data-icon="grid"><a href="#incall" rel="external" onclick="mute();">Mute/Unmute</a></li>
+    <li data-icon="grid"><a href="#bar">__ Volume Up</a></li>
+    <li data-icon="grid"><a href="#bar">__ Volume Down</a></li>
+    <li data-icon="grid"><a href="#incall" rel="external" onclick="hangup();">End call</a></li>
+        <li data-role="list-divider"><h2>My devices:</h2></li>
+    <li><a href="#monitor">__ Monitor</a></li>
+    <li><a href="#codec">__ VC endpoint</a></li>
+    <li><a href="#datashow">__ Datashow</a></li>
+</ul>
+
+ 
+    </div><!-- /content -->
+
+
+</div><!-- /page incall-->
+
+<!-- Start of local page -->
+<div data-role="page" id="local" data-theme="b">
+
+    <div data-role="header" data-position="inline">
+        <h1>Local meeting</h1>
+        <a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+    </div><!-- /header -->
+
+    <div data-role="content">    
+
+<ul data-role="listview" >
+    <li data-role="list-divider"><h2>My call:</h2></li>
+    <li data-icon="grid"><a href="#local" rel="external" onclick="vcbutton('play');">Send Content</a></li>
+    <li data-icon="grid"><a href="#local" rel="external" onclick="vcbutton('stop');">Stop Content</a></li>
+    <li><a href="#directory">Call another site</a></li>
+    <li><a href="#home" rel="external" onclick="call('20201030');">Meeting room</a></li>
+    <li><a href="#home" rel="external" onclick="call('20200155');">Concierge desk</a></li>
+    <li data-role="list-divider"><h2>My devices:</h2></li>
+    <li><a href="#monitor">Monitor</a></li>
+    <li><a href="#codec">__ VC endpoint</a></li>
+    <li><a href="#datashow">__ Datashow</a></li>
+</ul>
+
+ 
+    </div><!-- /content -->
+
+
+</div><!-- /page local-->
+
+
+
+
+<!-- Start of codec page -->
+<div data-role="page" id="codec" data-theme="b">
+
+    <div data-role="header" data-position="inline">
+        <h1>Device</h1>
+        <a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+    </div><!-- /header -->
+
+    <div data-role="content">    
+
+<ul data-role="listview" >
+    <li data-role="list-divider"><h2>My VC endpoint:</h2></li>
+    <li data-icon="grid"><a href="#bar">Turn on/off</a></li>
+    <li data-icon="grid"><a href="#bar">Mute/Unmute</a></li>
+    <li data-icon="grid"><a href="#bar">Volume Up</a></li>
+    <li data-icon="grid"><a href="#bar">Volume Down</a></li>
+    <li data-icon="grid"><a href="#bar">Answer</a></li>
+    <li data-icon="grid"><a href="#bar">Disconnect</a></li>
+    <li data-icon="grid"><a href="#dialpad" data-rel="dialog">Dialpad</a></li>
+</ul>
+
+ 
+    </div><!-- /content -->
+
+
+</div><!-- /page -->
+
+
+<!-- Start of datashow page -->
+<div data-role="page" id="datashow" data-theme="b">
+
+    <div data-role="header" data-position="inline">
+        <h1>Device</h1>
+        <a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+    </div><!-- /header -->
+
+    <div data-role="content">    
+
+<ul data-role="listview" >
+    <li data-role="list-divider"><h2>My datashow:</h2></li>
+    <li data-icon="grid"><a href="#bar">Turn on/off</a></li>
+    <li data-icon="grid"><a href="#bar">Change Input</a></li>
+</ul>
+
+ 
+    </div><!-- /content -->
+
+
+</div><!-- /page -->
+
+
+</body>
+</html>
