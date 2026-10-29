@@ -1,0 +1,51 @@
+import org.apache.commons.httpclient.Header;
+import org.apache.commons.httpclient.HeaderElement;
+import org.apache.commons.httpclient.HttpClient;
+import org.apache.commons.httpclient.UsernamePasswordCredentials;
+import org.apache.commons.httpclient.auth.AuthScope;
+import org.apache.commons.httpclient.methods.GetMethod;
+
+public class BrowserAuth {
+
+	public static void main(String[] args) {
+		try {
+
+			// 
+			String urlStr = “http://example.com:8080/abc/”;
+			String host = “example.com”;
+			String realm = “ExampleRealm”;
+			String userName = “user”;
+			String password = “password”;
+			// 
+
+			HttpClient client = new HttpClient();
+
+			GetMethod getMethod = new GetMethod(urlStr);
+
+			int status = client.executeMethod(getMethod);
+			System.out.println(”status: ” + status);
+			String responseBody = getMethod.getResponseBodyAsString();
+			System.out.println(”responseBody: ” + responseBody);
+
+			Header wwAuthHeader = getMethod.getResponseHeader(”WWW-Authenticate”);
+			for (HeaderElement element : wwAuthHeader.getElements()) {
+				System.out.println(element.getName() + “: ” + element.getValue());
+			}
+
+			UsernamePasswordCredentials upc = new UsernamePasswordCredentials(userName, password);
+			AuthScope as = new AuthScope(host, 8080, realm);
+			client.getState().setCredentials(as, upc);
+			status = client.executeMethod(getMethod);
+			System.out.println(”status: ” + status);
+			responseBody = getMethod.getResponseBodyAsString();
+			System.out.println(”responseBody: ” + responseBody);
+
+			getMethod.releaseConnection();
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}
